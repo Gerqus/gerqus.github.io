@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kana practice</title>
+    <style>
+      .char {
+        font-size: 20px;
+        text-align: center;
+        width: 102px;
+        min-height: 28px;
+        outline: 2px solid gray;
+        margin-bottom: 7px;
+      }
+      .cross {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 30px;
+        outline: 2px solid gray;
+        float: left;
+        font-size: 50px;
+        line-height: 50px;
+        background-image: url('./grid.png');
+        background-size: cover;
+      }
+      .cross.single {
+        width: 100px;
+        height: 100px;
+        font-size: 100px;
+        line-height: 100px;
+      }
+      .cross:last-of-type {
+        position: relative;
+        z-index: -1;
+      }
+      .cross:not(:last-of-type) {
+        margin-right: 2px;
+      }
+      td {
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      .set-label {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        width: 500px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .settings {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        gap: 10px;
+      }
+      .settings .checkboxes-wrapper div {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2em;
+      }
+      .settings label select, .settings label input {
+        float: right;
+        margin-left: 15px;
+      }
+      @media print
+      {
+        .settings {
+          display: none;
+        }
+        .table  {
+          page-break-after: always;
+        }
+        tr, td, .char, .cross, .set-label {
+          break-before: avoid;
+          break-inside: avoid;
+          break-after: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="settings">
+      <label>
+        <b>Include yō-on (* + ゃゅょ combinations):</b>
+        <select id="single-mode">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </label>
+      <label>
+        <b>Include dakuten and handakuten ("゛" and "゜" signs):</b>
+        <select id="dakuten-mode">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </label>
+      <label>
+        <b>Randomize order:</b>
+        <select id="random-mode">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </label>
+      <label>
+        <b>Number of columns in tables:</b>
+        <input id="number-of-columns"/>
+      </label>
+      <label>
+        <b>Number of sections generated:</b>
+        <input id="number-of-sections"/>
+      </label>
+      <div class="checkboxes-wrapper">
+        <b>Tables to render in each section:</b>
+        <div>
+          <label>Romanji <input type="checkbox" id="render-romanji"></label>
+          <label>Hiragana <input type="checkbox" id="render-hiragana"></label>
+          <label>Katakana <input type="checkbox" id="render-katakana"></label>
+        </div>
+      </div>
+    </div>
+    <div id="tables-container"></div>
+  </body>
+  <script>
+    let singleMode = false;
+    let dakutenMode = true;
+    let randomMode = true;
+    let numOfTableColumns = 6;
+    let numOfSections = 10;
+    let shouldRenderRomanji = true;
+    let shouldRenderHiragana = true;
+    let shouldRenderKatakana = true;
+
+    function shuffle(a) {
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    document.getElementById('single-mode').value = Number(!singleMode).toString();
+    document.getElementById('single-mode').addEventListener('change', event => {
+      singleMode = !+event.target.value;
+      generate();
+    });
+    document.getElementById('dakuten-mode').value = Number(dakutenMode).toString();
+    document.getElementById('dakuten-mode').addEventListener('change', event => {
+      dakutenMode = !!+event.target.value;
+      generate();
+    });
+    document.getElementById('random-mode').value = Number(randomMode).toString();
+    document.getElementById('random-mode').addEventListener('change', event => {
+      randomMode = !!+event.target.value;
+      generate();
+    });
+    document.getElementById('number-of-columns').value = numOfTableColumns;
+    document.getElementById('number-of-columns').addEventListener('change', event => {
+      numOfTableColumns = +event.target.value;
+      generate();
+    });
+    document.getElementById('number-of-sections').value = numOfSections;
+    document.getElementById('number-of-sections').addEventListener('change', event => {
+      numOfSections = +event.target.value;
+      generate();
+    });
+    document.getElementById('render-romanji').checked = shouldRenderRomanji;
+    document.getElementById('render-romanji').addEventListener('change', event => {
+      shouldRenderRomanji = !!event.target.checked;
+      generate();
+    });
+    document.getElementById('render-hiragana').checked = shouldRenderHiragana;
+    document.getElementById('render-hiragana').addEventListener('change', event => {
+      shouldRenderHiragana = !!event.target.checked;
+      generate();
+    });
+    document.getElementById('render-katakana').checked = shouldRenderKatakana;
+    document.getElementById('render-katakana').addEventListener('change', event => {
+      shouldRenderKatakana = !!event.target.checked;
+      generate();
+    });
+
+    const characters = [
+      {
+        "char_id": "a",
+        "hiragana": "あ",
+        "katakana": "ア",
+        "romanization": "a"
+      },
+      {
+        "char_id": "i",
+        "hiragana": "い",
+        "katakana": "イ",
+        "romanization": "i"
+      },
+      {
+        "char_id": "u",
+        "hiragana": "う",
+        "katakana": "ウ",
+        "romanization": "u"
+      },
+      {
+        "char_id": "e",
+        "hiragana": "え",
+        "katakana": "エ",
+        "romanization": "e"
+      },
+      {
+        "char_id": "o",
+        "hiragana": "お",
+        "katakana": "オ",
+        "romanization": "o"
+      },
+      {
+        "char_id": "ka",
+        "hiragana": "か",
+        "katakana": "カ",
+        "romanization": "ka"
+      },
+      {
+        "char_id": "ki",
+        "hiragana": "き",
+        "katakana": "キ",
+        "romanization": "ki"
+      },
+      {
+        "char_id": "ku",
+        "hiragana": "く",
+        "katakana": "ク",
+        "romanization": "ku"
+      },
+      {
+        "char_id": "ke",
+        "hiragana": "け",
+        "katakana": "ケ",
+        "romanization": "ke"
+      },
+      {
+        "char_id": "ko",
+        "hiragana": "こ",
+        "katakana": "コ",
+        "romanization": "ko"
+      },
+      {
+        "char_id": "sa",
+        "hiragana": "さ",
+        "katakana": "サ",
+        "romanization": "sa"
+      },
+      {
+        "char_id": "si",
+        "hiragana": "し",
+        "katakana": "シ",
+        "romanization": "shi"
+      },
+      {
+        "char_id": "su",
+        "hiragana": "す",
+        "katakana": "ス",
+        "romanization": "su"
+      },
+      {
+        "char_id": "se",
+        "hiragana": "せ",
+        "katakana": "セ",
+        "romanization": "se"
+      },
+      {
+        "char_id": "so",
+        "hiragana": "そ",
+        "katakana": "ソ",
+        "romanization": "so"
+      },
+      {
+        "char_id": "ta",
+        "hiragana": "た",
+        "katakana": "タ",
+        "romanization": "ta"
+      },
+      {
+        "char_id": "ti",
+        "hiragana": "ち",
+        "katakana": "チ",
+        "romanization": "chi"
+      },
+      {
+        "char_id": "tu",
+        "hiragana": "つ",
+        "katakana": "ツ",
+        "romanization": "tsu"
+      },
+      {
+        "char_id": "te",
+        "hiragana": "て",
+        "katakana": "テ",
+        "romanization": "te"
+      },
+      {
+        "char_id": "to",
+        "hiragana": "と",
+        "katakana": "ト",
+        "romanization": "to"
+      },
+      {
+        "char_id": "na",
+        "hiragana": "な",
+        "katakana": "ナ",
+        "romanization": "na"
+      },
+      {
+        "char_id": "ni",
+        "hiragana": "に",
+        "katakana": "ニ",
+        "romanization": "ni"
+      },
+      {
+        "char_id": "nu",
+        "hiragana": "ぬ",
+        "katakana": "ヌ",
+        "romanization": "nu"
+      },
+      {
+        "char_id": "ne",
+        "hiragana": "ね",
+        "katakana": "ネ",
+        "romanization": "ne"
+      },
+      {
+        "char_id": "no",
+        "hiragana": "の",
+        "katakana": "ノ",
+        "romanization": "no"
+      },
+      {
+        "char_id": "ha",
+        "hiragana": "は",
+        "katakana": "ハ",
+        "romanization": "ha"
+      },
+      {
+        "char_id": "hi",
+        "hiragana": "ひ",
+        "katakana": "ヒ",
+        "romanization": "hi"
+      },
+      {
+        "char_id": "hu",
+        "hiragana": "ふ",
+        "katakana": "フ",
+        "romanization": "fu"
+      },
+      {
+        "char_id": "he",
+        "hiragana": "へ",
+        "katakana": "ヘ",
+        "romanization": "he"
+      },
+      {
+        "char_id": "ho",
+        "hiragana": "ほ",
+        "katakana": "ホ",
+        "romanization": "ho"
+      },
+      {
+        "char_id": "ma",
+        "hiragana": "ま",
+        "katakana": "マ",
+        "romanization": "ma"
+      },
+      {
+        "char_id": "mi",
+        "hiragana": "み",
+        "katakana": "ミ",
+        "romanization": "mi"
+      },
+      {
+        "char_id": "mu",
+        "hiragana": "む",
+        "katakana": "ム",
+        "romanization": "mu"
+      },
+      {
+        "char_id": "me",
+        "hiragana": "め",
+        "katakana": "メ",
+        "romanization": "me"
+      },
+      {
+        "char_id": "mo",
+        "hiragana": "も",
+        "katakana": "モ",
+        "romanization": "mo"
+      },
+      {
+        "char_id": "ya",
+        "hiragana": "や",
+        "katakana": "ヤ",
+        "romanization": "ya"
+      },
+      {
+        "char_id": "yu",
+        "hiragana": "ゆ",
+        "katakana": "ユ",
+        "romanization": "yu"
+      },
+      {
+        "char_id": "yo",
+        "hiragana": "よ",
+        "katakana": "ヨ",
+        "romanization": "yo"
+      },
+      {
+        "char_id": "ra",
+        "hiragana": "ら",
+        "katakana": "ラ",
+        "romanization": "ra"
+      },
+      {
+        "char_id": "ri",
+        "hiragana": "り",
+        "katakana": "リ",
+        "romanization": "ri"
+      },
+      {
+        "char_id": "ru",
+        "hiragana": "る",
+        "katakana": "ル",
+        "romanization": "ru"
+      },
+      {
+        "char_id": "re",
+        "hiragana": "れ",
+        "katakana": "レ",
+        "romanization": "re"
+      },
+      {
+        "char_id": "ro",
+        "hiragana": "ろ",
+        "katakana": "ロ",
+        "romanization": "ro"
+      },
+      {
+        "char_id": "wa",
+        "hiragana": "わ",
+        "katakana": "ワ",
+        "romanization": "wa"
+      },
+      {
+        "char_id": "wo",
+        "hiragana": "を",
+        "katakana": "ヲ",
+        "romanization": "wo"
+      },
+      {
+        "char_id": "-n",
+        "hiragana": "ん",
+        "katakana": "ン",
+        "romanization": "n"
+      },
+      {
+        "char_id": "ga",
+        "hiragana": "が",
+        "katakana": "ガ",
+        "romanization": "ga",
+        dakuten: true,
+      },
+      {
+        "char_id": "gi",
+        "hiragana": "ぎ",
+        "katakana": "ギ",
+        "romanization": "gi",
+        dakuten: true,
+      },
+      {
+        "char_id": "gu",
+        "hiragana": "ぐ",
+        "katakana": "グ",
+        "romanization": "gu",
+        dakuten: true,
+      },
+      {
+        "char_id": "ge",
+        "hiragana": "げ",
+        "katakana": "ゲ",
+        "romanization": "ge",
+        dakuten: true,
+      },
+      {
+        "char_id": "go",
+        "hiragana": "ご",
+        "katakana": "ゴ",
+        "romanization": "go",
+        dakuten: true,
+      },
+      {
+        "char_id": "za",
+        "hiragana": "ざ",
+        "katakana": "ザ",
+        "romanization": "za",
+        dakuten: true,
+      },
+      {
+        "char_id": "zi",
+        "hiragana": "じ",
+        "katakana": "ジ",
+        "romanization": "ji",
+        dakuten: true,
+      },
+      {
+        "char_id": "zu",
+        "hiragana": "ず",
+        "katakana": "ズ",
+        "romanization": "zu",
+        dakuten: true,
+      },
+      {
+        "char_id": "ze",
+        "hiragana": "ぜ",
+        "katakana": "ゼ",
+        "romanization": "ze",
+        dakuten: true,
+      },
+      {
+        "char_id": "zo",
+        "hiragana": "ぞ",
+        "katakana": "ゾ",
+        "romanization": "zo",
+        dakuten: true,
+      },
+      {
+        "char_id": "da",
+        "hiragana": "だ",
+        "katakana": "ダ",
+        "romanization": "da",
+        dakuten: true,
+      },
+      {
+        "char_id": "di",
+        "hiragana": "ぢ",
+        "katakana": "ヂ",
+        "romanization": "ji",
+        dakuten: true,
+      },
+      {
+        "char_id": "du",
+        "hiragana": "づ",
+        "katakana": "ヅ",
+        "romanization": "zu",
+        dakuten: true,
+      },
+      {
+        "char_id": "de",
+        "hiragana": "で",
+        "katakana": "デ",
+        "romanization": "de",
+        dakuten: true,
+      },
+      {
+        "char_id": "do",
+        "hiragana": "ど",
+        "katakana": "ド",
+        "romanization": "do",
+        dakuten: true,
+      },
+      {
+        "char_id": "ba",
+        "hiragana": "ば",
+        "katakana": "バ",
+        "romanization": "ba",
+        dakuten: true,
+      },
+      {
+        "char_id": "bi",
+        "hiragana": "び",
+        "katakana": "ビ",
+        "romanization": "bi",
+        dakuten: true,
+      },
+      {
+        "char_id": "bu",
+        "hiragana": "ぶ",
+        "katakana": "ブ",
+        "romanization": "bu",
+        dakuten: true,
+      },
+      {
+        "char_id": "be",
+        "hiragana": "べ",
+        "katakana": "ベ",
+        "romanization": "be",
+        dakuten: true,
+      },
+      {
+        "char_id": "bo",
+        "hiragana": "ぼ",
+        "katakana": "ボ",
+        "romanization": "bo",
+        dakuten: true,
+      },
+      {
+        "char_id": "pa",
+        "hiragana": "ぱ",
+        "katakana": "パ",
+        "romanization": "pa",
+        handakuten : true,
+      },
+      {
+        "char_id": "pi",
+        "hiragana": "ぴ",
+        "katakana": "ピ",
+        "romanization": "pi",
+        handakuten : true,
+      },
+      {
+        "char_id": "pu",
+        "hiragana": "ぷ",
+        "katakana": "プ",
+        "romanization": "pu",
+        handakuten : true,
+      },
+      {
+        "char_id": "pe",
+        "hiragana": "ぺ",
+        "katakana": "ペ",
+        "romanization": "pe",
+        handakuten : true,
+      },
+      {
+        "char_id": "po",
+        "hiragana": "ぽ",
+        "katakana": "ポ",
+        "romanization": "po",
+        handakuten : true,
+      },
+      {
+        "char_id": "vu",
+        "hiragana": "ゔ",
+        "katakana": "ヴ",
+        "romanization": "vu",
+        dakuten: true,
+      },
+      {
+        "char_id": "kya",
+        "hiragana": "きゃ",
+        "katakana": "キャ",
+        "romanization": "kya"
+      },
+      {
+        "char_id": "kyu",
+        "hiragana": "きゅ",
+        "katakana": "キュ",
+        "romanization": "kyu"
+      },
+      {
+        "char_id": "kyo",
+        "hiragana": "きょ",
+        "katakana": "キョ",
+        "romanization": "kyo"
+      },
+      {
+        "char_id": "sya",
+        "hiragana": "しゃ",
+        "katakana": "シャ",
+        "romanization": "sha"
+      },
+      {
+        "char_id": "syu",
+        "hiragana": "しゅ",
+        "katakana": "シュ",
+        "romanization": "shu"
+      },
+      {
+        "char_id": "syo",
+        "hiragana": "しょ",
+        "katakana": "ショ",
+        "romanization": "sho"
+      },
+      {
+        "char_id": "tya",
+        "hiragana": "ちゃ",
+        "katakana": "チャ",
+        "romanization": "cha"
+      },
+      {
+        "char_id": "tyu",
+        "hiragana": "ちゅ",
+        "katakana": "チュ",
+        "romanization": "chu"
+      },
+      {
+        "char_id": "tyo",
+        "hiragana": "ちょ",
+        "katakana": "チョ",
+        "romanization": "cho"
+      },
+      {
+        "char_id": "nya",
+        "hiragana": "にゃ",
+        "katakana": "ニャ",
+        "romanization": "nya"
+      },
+      {
+        "char_id": "nyu",
+        "hiragana": "にゅ",
+        "katakana": "ニュ",
+        "romanization": "nyu"
+      },
+      {
+        "char_id": "nyo",
+        "hiragana": "にょ",
+        "katakana": "ニョ",
+        "romanization": "nyo"
+      },
+      {
+        "char_id": "hya",
+        "hiragana": "ひゃ",
+        "katakana": "ヒャ",
+        "romanization": "hya"
+      },
+      {
+        "char_id": "hyu",
+        "hiragana": "ひゅ",
+        "katakana": "ヒュ",
+        "romanization": "hyu"
+      },
+      {
+        "char_id": "hyo",
+        "hiragana": "ひょ",
+        "katakana": "ヒョ",
+        "romanization": "hyo"
+      },
+      {
+        "char_id": "mya",
+        "hiragana": "みゃ",
+        "katakana": "ミャ",
+        "romanization": "mya"
+      },
+      {
+        "char_id": "myu",
+        "hiragana": "みゅ",
+        "katakana": "ミュ",
+        "romanization": "myu"
+      },
+      {
+        "char_id": "myo",
+        "hiragana": "みょ",
+        "katakana": "ミョ",
+        "romanization": "myo"
+      },
+      {
+        "char_id": "rya",
+        "hiragana": "りゃ",
+        "katakana": "リャ",
+        "romanization": "rya"
+      },
+      {
+        "char_id": "ryu",
+        "hiragana": "りゅ",
+        "katakana": "リュ",
+        "romanization": "ryu"
+      },
+      {
+        "char_id": "ryo",
+        "hiragana": "りょ",
+        "katakana": "リョ",
+        "romanization": "ryo"
+      },
+      {
+        "char_id": "gya",
+        "hiragana": "ぎゃ",
+        "katakana": "ギャ",
+        "romanization": "gya",
+        dakuten: true,
+      },
+      {
+        "char_id": "gyu",
+        "hiragana": "ぎゅ",
+        "katakana": "ギュ",
+        "romanization": "gyu",
+        dakuten: true,
+      },
+      {
+        "char_id": "gyo",
+        "hiragana": "ぎょ",
+        "katakana": "ギョ",
+        "romanization": "gyo",
+        dakuten: true,
+      },
+      {
+        "char_id": "zya",
+        "hiragana": "じゃ",
+        "katakana": "ジャ",
+        "romanization": "ja",
+        dakuten: true,
+      },
+      {
+        "char_id": "zyu",
+        "hiragana": "じゅ",
+        "katakana": "ジュ",
+        "romanization": "ju",
+        dakuten: true,
+      },
+      {
+        "char_id": "zyo",
+        "hiragana": "じょ",
+        "katakana": "ジョ",
+        "romanization": "jo",
+        dakuten: true,
+      },
+      {
+        "char_id": "dya",
+        "hiragana": "ぢゃ",
+        "katakana": "ヂャ",
+        "romanization": "ja",
+        dakuten: true,
+      },
+      {
+        "char_id": "dyu",
+        "hiragana": "ぢゅ",
+        "katakana": "ヂュ",
+        "romanization": "ju",
+        dakuten: true,
+      },
+      {
+        "char_id": "dyo",
+        "hiragana": "ぢょ",
+        "katakana": "ヂョ",
+        "romanization": "jo",
+        dakuten: true,
+      },
+      {
+        "char_id": "bya",
+        "hiragana": "びゃ",
+        "katakana": "ビャ",
+        "romanization": "bya",
+        dakuten: true,
+      },
+      {
+        "char_id": "byu",
+        "hiragana": "びゅ",
+        "katakana": "ビュ",
+        "romanization": "byu",
+        dakuten: true,
+      },
+      {
+        "char_id": "byo",
+        "hiragana": "にょ",
+        "katakana": "ビョ",
+        "romanization": "byo",
+        dakuten: true,
+      },
+      {
+        "char_id": "pya",
+        "hiragana": "ぴゃ",
+        "katakana": "ピャ",
+        "romanization": "pya",
+        handakuten : true,
+      },
+      {
+        "char_id": "pyu",
+        "hiragana": "ぴゅ",
+        "katakana": "ピュ",
+        "romanization": "pyu",
+        handakuten : true,
+      },
+      {
+        "char_id": "pyo",
+        "hiragana": "ぴょ",
+        "katakana": "ピョ",
+        "romanization": "pyo",
+        handakuten : true,
+      }
+    ]
+    
+    function generate() {
+      const tablesContainer = document.getElementById('tables-container');
+      tablesContainer.innerHTML = '';
+      const cellTemplate = document.createElement('td');
+      cellTemplate.innerHTML = singleMode ? '<div class="char"></div><div class="cross single"></div></div>' : '<div class="char"></div><div class="cross"></div><div class="cross"></div>';
+      const usedCharacters = characters.filter(charDef => 
+        (!singleMode || charDef.hiragana.length === 1) &&
+        (dakutenMode || (!charDef.dakuten && !charDef.handakuten)));
+      const charactersCount = usedCharacters.length;
+      const numberOfTableRows = Math.ceil(charactersCount / numOfTableColumns);
+      for(let s = 0; s < numOfSections; ++s) {
+        if (randomMode) shuffle(usedCharacters);
+        if (shouldRenderRomanji) generateTable(s, 'romanji');
+        if (shouldRenderHiragana) generateTable(s, 'hiragana');
+        if (shouldRenderKatakana) generateTable(s, 'katakana');
+      };
+
+      function generateTable(setNumber, type) {
+        const label = document.createElement('div');
+        label.classList.add('set-label');
+        label.innerText = `set #${setNumber+1}; ${type}`;
+        const table = document.createElement('table');
+        table.classList.add('table');
+        tablesContainer.appendChild(label);
+        tablesContainer.appendChild(table);
+        for (let r = 0; r < numberOfTableRows; ++r) {
+          const row = document.createElement('tr');
+          table.appendChild(row);
+          for (let c = 0; c < numOfTableColumns; ++c) {
+            const cell = cellTemplate.cloneNode(true);
+            const i = numOfTableColumns * r + c;
+            switch (type) {
+              case 'romanji':
+                cell.getElementsByClassName('char')[0].innerHTML = usedCharacters[i]?.romanization || '';
+                break;
+              case 'hiragana':
+                cell.getElementsByClassName('cross')[0].innerHTML = usedCharacters[i]?.hiragana || '';
+                break;
+              case 'katakana':
+                cell.getElementsByClassName('cross')[0].innerHTML = usedCharacters[i]?.katakana || '';
+                break;
+            }
+            row.appendChild(cell);
+          }
+        }
+      }
+    }
+    generate();
+  </script>
+</html>
