@@ -54,6 +54,13 @@
         float: right;
         gap: 10px;
       }
+      .settings span {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .settings .main-label {
+        font-size: 18px;
+      }
       .settings .checkboxes-wrapper div {
         display: flex;
         flex-direction: column;
@@ -81,37 +88,38 @@
   </head>
   <body>
     <div class="settings">
-      <label>
-        <b>Include yō-on (* + ゃゅょ combinations):</b>
+      <span>Kana training PDF generator.<br/>Set your settings and print page to PDF.</span>
+      <label class="main-label">
+        Include yō-on (* + ゃゅょ combinations):
         <select id="single-mode">
           <option value="1">Yes</option>
           <option value="0">No</option>
         </select>
       </label>
-      <label>
-        <b>Include dakuten and handakuten ("゛" and "゜" signs):</b>
+      <label class="main-label">
+        Include dakuten and handakuten ("゛" and "゜" signs):
         <select id="dakuten-mode">
           <option value="1">Yes</option>
           <option value="0">No</option>
         </select>
       </label>
-      <label>
-        <b>Randomize order:</b>
+      <label class="main-label">
+        Randomize order:
         <select id="random-mode">
           <option value="1">Yes</option>
           <option value="0">No</option>
         </select>
       </label>
-      <label>
-        <b>Number of columns in tables:</b>
+      <label class="main-label">
+        Number of columns in tables:
         <input id="number-of-columns"/>
       </label>
-      <label>
-        <b>Number of sections generated:</b>
+      <label class="main-label">
+        Number of sections generated:
         <input id="number-of-sections"/>
       </label>
       <div class="checkboxes-wrapper">
-        <b>Tables to render in each section:</b>
+        <span class="main-label">Tables to render in each section:</span>
         <div>
           <label>Romanji <input type="checkbox" id="render-romanji"></label>
           <label>Hiragana <input type="checkbox" id="render-hiragana"></label>
