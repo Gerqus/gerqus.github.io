@@ -26,7 +26,9 @@ function loadCards() {
         mainLabelIndices.push(0);
       }
 
-      cardContainer.style.fontSize = `${mainContainer.clientHeight / (labels.length + 2)}px`;
+      const fontSizeByHeight = mainContainer.clientHeight / (labels.length + 2);
+      const fontSizeByWidth = (mainContainer.clientWidth / 4) / Math.max(...labels.map(l => l.length));
+      cardContainer.style.fontSize = `${Math.min(fontSizeByHeight, fontSizeByWidth)}px`;
 
       handleContainerClick();
     }
