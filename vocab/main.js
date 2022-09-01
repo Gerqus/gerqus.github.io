@@ -26,6 +26,8 @@ function loadCards() {
         mainLabelIndices.push(0);
       }
 
+      cardContainer.style.fontSize = `${mainContainer.clientHeight / (labels.length + 2)}px`;
+
       handleContainerClick();
     }
   }
@@ -64,6 +66,7 @@ function drawNewFlashcard() {
     valueElement.classList.add('answear');
     if (mainLabelIndices.includes(labelIndex)) {
       valueElement.classList.add('main');
+      valueElement.style.opacity = 1;
     } else {
       valueElement.style.opacity = 0;
     }

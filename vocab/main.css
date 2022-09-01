@@ -15,21 +15,21 @@ body {
   height: 80vh;
   border: 3px solid #0c090a;
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .card {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 5em;
-  justify-content: space-around;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 1.5em;
   height: 100%;
-  width: 100%;
+  width: calc(100% - 3.5em);
   align-items: center;
-  justify-items: center;
+  padding: 0 0.25em;
 }
 
 .card > .main {
-  font-size: 1.5em;
   font-weight: bold;
 }
 
