@@ -1,14 +1,94 @@
-!PL
+PL
 kana
 kanji
 accent
 
-a
-b
-c
-d
+poranek
+あさ
+朝
+⬊
 
-1
-2
-3
-4
+południe
+ひる
+昼
+⬈
+
+wieczór
+ばん
+晩
+⬊
+
+noc
+よる
+夜
+⬊
+
+tego wieczora
+こんばん
+今晩
+⬊
+
+codziennie rano
+まいあさ
+毎朝
+⬊
+
+każdego wieczora
+まいばん
+毎晩
+⬊
+
+każdego dnia
+まいにち
+毎日
+⬊
+
+każdego tygodnia
+まいしゅう
+毎週
+⬈
+
+każdego miesiąca
+まいつき
+毎月
+⬈
+
+każdego roku
+まいとし
+毎年
+⬈
+
+weekend
+しゅうまつ
+週末
+⬈
+
+dzień powszedni / pracujący
+へいじつ
+平日
+⬈
+
+zawsze
+いつも
+
+⬊
+
+Wielkanoc
+イースター
+
+⬊
+
+Spać
+ねます
+寝ます
+⬈
+
+Wstawać, budzić się
+おきます
+起きます
+⬈
+
+kiedy
+いつ
+
+⬊
