@@ -1,24 +1,89 @@
 proszę posłuchaj
+きいてください
+
+
 proszę powiedz
+いってください
+
+
 proszę popatrz
+みてください
+
+
 proszę przeczytaj
+よんでください
+
+
 proszę napisz
+かいてください
+
+
 proszę zapamiętaj
+おぼえてください
+
+
 zacznijmy
+はじめましょう
+
+
 zakończmy
+おわらせましょう
+
+
 poćwiczmy
+れんしゅうしましょう
+
+
 praca domowa
+しゅくだい
+
+
 być (nieożywione)
+あります
+
+
 wszyscy
+みなさん
+
+
+
 rozumiecie?
+わかりますか？
+
+
+
 pytanie
+しつもん
+
+
 rozumieć
+わかります
+
+
 nie rozumieć
+わかりません
+
+
 co
+なん
+
+
 język Japoński
+にほんご
+
+
 powoli
+ゆっくり
+
+
 jeszcze raz
+もういちど
+
+
 proszę (o daną czynność)
+おねがいします
+
+
 trudne
 łatwe
 tak
