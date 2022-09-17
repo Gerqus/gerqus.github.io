@@ -1,0 +1,259 @@
+to tu
+to przy tobie
+to tam
+książka
+truskawka
+gitara
+parasol
+krzesło
+stół
+biała tablica
+drzwi
+okno
+aparat fotograficzny
+telefon komórkowy
+telewizor
+ołówek
+gumka do ścierania
+długopis / pióro
+nożyczki
+skarpetki
+torba
+okularny
+czapka / kapelusz
+magazyn / czasopismo
+klucze
+organizer / kalendarzyk / traker
+komputer
+słownik
+buty
+zegar
+notatnik / zeszyt
+ołówek automatyczny
+język Angielski
+jezyk Polski
+język ~
+samochód
+podręcznik (jap)
+podręcznik (ang)
+gazeta
+jaki?
+biblioteka
+firma
+kto?
+czyj?
+który? która? które?
+ten... tu
+ten... przy tobie
+ten... tam
+który?
+tutaj
+tu koło ciebie
+tam
+klasa (pomieszczenie)
+toaleta
+toaleta (jap)
+stołówka
+księgarnia
+bank
+piekarnia
+park
+dworzec
+kościół
+poczta
+sklep z ~
+skrzynka na listy
+schody
+winda
+schody ruchome
+biuro (jap)
+biuro (eng)
+sala konferencyjna
+recepcja
+lobby / hol
+pokój (pomieszczenie)
+dom (własne bezpieczne miesjce)
+mieszkanie / dom (budynek)
+gdzie?
+tutaj (grzecznościowo)
+tu koło ciebie (grzecznościowo)
+tam (grzecznościowo)
+gdzie (grzecznościowo)
+skąd (pochodzi) / gdzie zostało wyprodukowane?
+elektryczność
+dom handlowy
+alejka z ~ (z danym produktem)
+~ piętro
+któe piętro?
+pod ziemią / piwnica
+miejsce parkingowe
+kawiarnia
+ciasto
+ubranie
+buty
+mięso
+ryba
+warzywa
+owoce
+forma grzecznościowa od ~desu
+prawo (strona)
+lewo
+przed / z przodu
+z tyłu / za
+w środku / po środku
+na zewnątrz
+u góry / na górze / ponad
+na dole / pod
+blisko / niedaleko (czule)
+blisko / niedaleko (ozięble)
+obok (w otoczeniu czegoś)
+obok / sąsiednio / bok w bok / rzeczy tego samego rodzaju / też daleko, ale nie ma nic pomiędzy
+pomiędzy
+piec
+kot
+kwiat
+obraz
+łóżko
+piórnik
+półka na książki
+hotel
+przystanek autobusowy
+ławka
+tysiąc
+10 tysięcy
+~ yenów
+ile?
+lody
+pizza
+poproszę ~
+kawa
+jabłko
+banan
+gruszka
+hamburger
+czekolada
+herbata
+woda
+jedna mała rzecz
+dwie małe rzeczy
+trzy małe rzeczy
+cztery małe rzeczy
+pięć małe rzeczy
+sześć małe rzeczy
+siedem małe rzeczy
+osiem małe rzeczy
+dziewięć małe rzeczy
+dziesięć małe rzeczy
+ile małych rzeczy?
+warzywny sklep
+pomidor
+ziemniak
+kapusta
+marchew
+cebula
+rzodkiew
+ogórek
+reszta
+jest tanio
+jest drogo
+zapraszamy / witamy
+witaj / zapraszamy
+eeeee... więc...
+zatem / no, to...
+wszystko
+poproszę ~ (forma grzecznościowa)
+ach, rozumiem... (I see...)
+menu
+ryż curry
+ramen
+udon
+hamburger
+kotlet wieprzowy podany na misce ryżu
+spagetti
+sałata
+zupa
+drink
+herbata mrożona
+czarna herbata
+sok
+sok pomarańczowy
+coca cola
+bez dodatków / samo / pojedyncze
+zestaw / w zestawie
+polecane / rekomendowane
+rachunek / rozliczenie
+karta płatnicza
+gotówka
+dla ilu osób? (pytanie kelnera o stolik)
+następnie / potem
+proszę tutaj (podejść / przyjść / usiąść)
+uprzejmie proszę (kelner do klienta)
+zrozumiałem / przyjąłem zamówienie
+proszę chwilę poczekać
+za chwilę / trochę
+proszę poczekać
+przepraszam, że musiałeś czekać (kelner przy podaniu posiłku)
+rok
+ile lat / który rok?
+miesiąc
+ile miesięcy / który miesiąc?
+dni tygodnia
+który dzień tygodnia?
+~ dzień miesiąca
+ile dnia / który dzień miesiąca?
+uropdziny
+kiedy?
+2 lata temu
+w zeszłym roku
+w tym roku
+za rok
+za 2 lata
+miesiąc (księżyć)
+2 miesiące temu
+miesiąc temu / w zeszłym meisiącu
+w tym miesiącu
+w przyszłym miesiącu
+za 2 miesiące
+tydzień
+2 tygodnie temu
+tydzień temu
+w tym tygodniu
+za tydzień
+za 2 tygodnie
+dzień
+2 dni temu
+wczoraj
+dziś
+jutro
+za 2 dni, pojutrze
+pory roku
+wiosna
+lato
+jesień
+zima
+kwiecień
+lipiec
+wrzesień
+poniedziałek
+wtorek
+środa
+czwartek
+piątek
+sobota
+niedziela
+pierwszy dzień miesiąca
+drugi dzień miesiąca
+trzeci dzień miesiąca
+czwarty dzień miesiąca
+piąty dzień miesiąca
+szósty dzień miesiąca
+siódmy dzień miesiąca
+ósmy dzień miesiąca
+dziewiąty dzień miesiąca
+dziesiąty dzień miesiąca
+czternasty dzień miesiąca
+siedemnasty dzień miesiąca
+dwudziesty dzień miesiąca
+dwudziesty czwarty dzień miesiąca
+dwudziesty siódmy dzień miesiąca
+dwudziesty dziewiąty dzień miesiąca

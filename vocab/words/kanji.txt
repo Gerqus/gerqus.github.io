@@ -1,0 +1,30 @@
+jeden
+dwa
+trzy
+cztery
+pięć
+sześć
+siedem
+osiem
+dziewięć
+dziesięć
+sto
+tysiąc
+10 tysięcy
+jen
+rok
+miesiąc
+dzień
+ogień
+woda
+drzewo
+złoto
+ziemia
+dzień tygodnia
+czas / godzina
+minuta / dzielić
+pół
+góry
+rzeka
+pole ryżowe
+mały las

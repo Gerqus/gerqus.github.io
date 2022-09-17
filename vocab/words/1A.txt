@@ -1,0 +1,193 @@
+proszę posłuchaj
+proszę powiedz
+proszę popatrz
+proszę przeczytaj
+proszę napisz
+proszę zapamiętaj
+zacznijmy
+zakończmy
+poćwiczmy
+praca domowa
+być (nieożywione)
+wszyscy
+rozumiecie?
+pytanie
+rozumieć
+nie rozumieć
+co
+język Japoński
+powoli
+jeszcze raz
+proszę (o daną czynność)
+trudne
+łatwe
+tak
+nie
+rzeczownik
+czasownik
+przymiotnik
+partykuła
+ćwiczenie
+zdanie
+dialog / rozmowa
+powintanie
+dzień dobry (rano)
+dzień dobry (po poranku)
+dobry wieczór
+dobranoc
+przepraszam (prosząc o coś)
+przepraszam (za coś)
+dziękuję
+nie ma za co (dziękować)
+będę jadł (przed posiłkiem)
+dziękuję za jedzenie (po posiłku)
+wychodzę (i wrócę)
+miłego dnia / powodzenia / idź i wracaj
+wróciłem / już jestem
+witaj z powrotem
+jak się masz?
+miło mi poznać
+ja
+życzenie dobrej relacji
+jak się nazywasz?
+imię / nazwa / nazwisko
+liczba
+jeden
+dwa
+trzy
+cztery
+pięć
+sześć
+siedem
+osiem
+dziewięć
+dziesięć
+sto
+telefon
+numer
+numer telefonu
+my
+ty
+wy
+on
+oni
+ona
+one
+kraj
+Stany Zjednoczone
+Wielka Brytania
+Włochy
+Indie
+Korea południowa
+Hiszpania
+Chiny
+Niemcy
+Japonia
+Szwajcaria
+Polska
+Kanada
+Francja
+Rosja
+~narodowość
+zawód
+pracownik firmy
+lekarz
+pielęgniarz
+nauczyciel
+inżynier
+gospodyni domowa
+sprzedawca
+kelner
+kelnerka
+bezrobotny
+uczeń podstawówki
+uczeń gimnazjum
+uczeń liceum
+uczeń licencjackich
+uczeń magisterskich
+student / uczeń
+szkoła
+szkoła podstawowa
+gimnazjum
+liceum
+uniwersytet pierwszego stopnia
+uniwersytet drugiego stopnia
+policjant
+strażak
+polityk
+dziennikarz
+fotograf
+pilot
+kierowca
+stolarz
+pisarz
+piosenkarz
+aktor
+aktorka
+kucharz
+fryzjer damski
+fryzjer męski
+rybak
+farmer / rolnik
+wzajemnie / nawzajem
+Tokio
+Supermarket
+szpital
+restauracja
+pracownik biurowy
+~rok nauki / klasa
+Seul
+Osaka
+Fukuoka
+Szkoła w danym mieście (np. Gimnazjum we Wrocławiu)
+rodzina (moja)
+rodzina (cudza)
+dziadek (mój)
+dziadek (cudzy)
+babcia (moja)
+babcia (cudza)
+tata (mój)
+tata (cudzy)
+mama (moja)
+mama (cudza)
+starszy brat (mój)
+starszy brat (cudzy)
+starsza siostra (moja)
+starsza siostra (cudza)
+młodszy brat (mój)
+młodszy brat (cudzy)
+młodsza siostra (moja)
+młodsza siostra (cudza)
+rodzeństwo (moje)
+rodzeństwo (cudze)
+siostry (rodzeństwo) (moje)
+siostry (rodzeństwo) (cudze)
+wujek (mój)
+wujek (cudzy)
+ciocia (moja)
+ciocia (cudza)
+mąż (mój)
+mąż (cudzy)
+żona (moja)
+żona (cudza)
+kuzyn / kuzynka / kuzynostwo (moje)
+kuzyn / kuzynka / kuzynostwo (cudze)
+~lat (wiek)
+ile masz lat?
+Nara
+Kioto
+liczebnik osobowy
+jedna osoba / sam(a)
+samotnie / samodzielnie
+dwie osoby
+we doje / w parze
+i
+czas
+~godzina
+~minuta
+pół
+teraz
+godziny przedpołudniowe
+godziny popołudniowe
+która godzina?
+ile minut?
