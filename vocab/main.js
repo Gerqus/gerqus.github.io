@@ -1,8 +1,8 @@
 let mainContainer;
 let cardContainer;
 
-let labels;
-let cards;
+let labels = [];
+let cards = [];
 let mainLabelIndices = [];
 let freshFlashcard = false;
 
@@ -14,7 +14,18 @@ function loadCards() {
   client.onreadystatechange = function() {
     if (client.readyState === 4) {
       const words = client.responseText;
-      cards = words.split(`\n\n`).map(c => c.split(`\n`));
+      const lines = words.split(`\n`);
+      lines.reduce((card, line, i) => {
+        if (i % 5 === 0) {
+          if (card.length) {
+            cards.push(card);
+          }
+          card = [];
+        }
+        card.push(line);
+        return card;
+      }, []);
+      console.log(cards);
       labels = cards.shift();
       labels.forEach((label, labelIndex) => {
         if (label.startsWith('!')) {
@@ -33,6 +44,7 @@ function loadCards() {
       handleContainerClick();
     }
   }
+  client.setRequestHeader('Content-type', "text/plain; charset=utf-8");
   client.send();
 
   mainContainer = document.getElementsByClassName('container')[0];
@@ -55,18 +67,19 @@ function handleContainerClick() {
 
 function drawNewFlashcard() {
   const randomCard = cards[Math.floor(Math.random() * cards.length)];
+  const randomLabelIndex = mainLabelIndices[Math.floor(Math.random() * mainLabelIndices.length)]
 
   labels.forEach((label, labelIndex) => {
     const labelElement = document.createElement('span');
     labelElement.classList.add('label');
-    if (mainLabelIndices.includes(labelIndex)) {
+    if (randomLabelIndex === labelIndex) {
       labelElement.classList.add('main');
     }
     labelElement.innerHTML = label;
     const valueElement = document.createElement('span');
     valueElement.innerHTML = randomCard[labelIndex];
     valueElement.classList.add('answear');
-    if (mainLabelIndices.includes(labelIndex)) {
+    if (randomLabelIndex === labelIndex) {
       valueElement.classList.add('main');
       valueElement.style.opacity = 1;
     } else {

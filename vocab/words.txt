@@ -1,94 +1,3418 @@
-PL
-kana
+!PL
+!kana
 kanji
 accent
+
+proszę posłuchaj
+きいてください
+聞いてください
+
+
+proszę powiedz
+いってください
+言ってください
+
+
+proszę popatrz
+みてください
+見てください
+
+
+proszę przeczytaj
+よんでください
+読んでください
+
+
+proszę napisz
+かいてください
+書いてください
+
+
+proszę zapamiętaj
+おぼえてください
+覚えてください
+
+
+zacznijmy
+はじめましょう
+始めましょう
+
+
+zakończmy
+おわりましょう
+終わりましょう
+
+
+poćwiczmy
+れんしゅうしましょう
+練習しましょう
+
+
+praca domowa
+しゅくだい
+宿題
+
+
+być (nieożywione)
+あります
+ー
+
+
+wszyscy
+みなさん
+皆さん
+
+
+rozumiecie?
+わかりますか？
+判りますか？
+
+
+pytanie
+しつもん
+質問
+
+
+rozumieć
+わかります
+判ります
+
+
+nie rozumieć
+わかりません
+判りません
+
+
+co
+なん
+ー
+
+
+język Japoński
+にほんご
+日本語
+
+
+powoli
+ゆっくり
+ー
+
+
+jeszcze raz
+もういちど
+もう一度
+
+
+proszę (o daną czynność)
+おねがいします
+お願いします
+
+
+trudne
+むずかしい
+難しい
+
+
+łatwe
+かんたん
+簡単
+
+
+tak
+はい
+ー
+
+
+nie
+いいえ
+ー
+
+
+rzeczownik
+めいし
+名詞
+
+
+czasownik
+どうし
+動詞
+
+
+przymiotnik
+けいようし
+形容詞
+
+
+partykuła
+じょし
+助詞
+
+
+ćwiczenie
+れんしゅう
+練習
+
+
+zdanie
+ぶん
+文
+
+
+dialog / rozmowa
+かいわ
+会話
+
+
+powintanie
+あいさつ
+挨拶
+
+
+dzień dobry (rano)
+おはようございます
+お早う御座います
+
+
+dzień dobry (po poranku)
+こんにちは
+今日は
+
+
+dobry wieczór
+こんばんは
+今晩は
+
+
+dobranoc
+おやすみなさい
+お休みなさい
+
+
+przepraszam (prosząc o coś)
+すみません
+
+
+
+przepraszam (za coś)
+ごめんなさい
+
+
+
+dziękuję
+ありがとうございます
+
+
+
+nie ma za co (dziękować)
+どういたしまして
+
+
+
+będę jadł (przed posiłkiem)
+いただきます
+
+
+
+dziękuję za jedzenie (po posiłku)
+ごちそうさまでした
+
+
+
+wychodzę (i wrócę)
+いってきます
+
+
+
+miłego dnia / powodzenia / idź i wracaj
+いってらっしゃい
+
+
+
+wróciłem / już jestem
+ただいま
+
+
+
+witaj z powrotem
+おかえりなさい
+
+
+
+jak się masz?
+おげんきですか
+
+
+
+miło mi poznać
+はじめまして
+
+
+
+ja
+わたし
+
+
+
+życzenie dobrej relacji
+どうぞよろしくおねがいします
+
+
+
+jak się nazywasz?
+おなまえは？
+
+
+
+imię / nazwa / nazwisko
+なまえ
+
+
+
+liczba
+すうじ
+
+
+
+jeden
+いち
+
+
+
+dwa
+に
+
+
+
+trzy
+さん
+
+
+
+cztery
+よん
+
+
+
+pięć
+ご
+
+
+
+sześć
+ろく
+
+
+
+siedem
+なな
+
+
+
+osiem
+はち
+
+
+
+dziewięć
+きゅう
+
+
+
+dziesięć
+じゅう
+
+
+
+sto
+ひゃく
+
+
+
+telefon
+でんわ
+
+
+
+numer
+ばんごう
+
+
+
+numer telefonu
+てんわばんごう
+
+
+
+my
+わたしたち
+
+
+
+ty
+あなた
+
+
+
+wy
+あなたたち
+
+
+
+on
+かれ
+
+
+
+oni
+かれら
+
+
+
+ona
+かのじょ
+
+
+
+one
+かのじょたち ・ かのじょら
+
+
+
+kraj
+くに
+
+
+
+Stany Zjednoczone
+アメリカ
+
+
+
+Wielka Brytania
+イギリス
+
+
+
+Włochy
+イタリア
+
+
+
+Indie
+インド
+
+
+
+Korea południowa
+かんこく
+
+
+
+Hiszpania
+スペイン
+
+
+
+Chiny
+ちゅうごく
+
+
+
+Niemcy
+ドイツ
+
+
+
+Japonia
+にほん
+
+
+
+Szwajcaria
+スイス
+
+
+
+Polska
+ポーランド
+
+
+
+Kanada
+カナダ
+
+
+
+Francja
+フランス
+
+
+
+Rosja
+ロシア
+
+
+
+~narodowość
+〜じん
+
+
+
+zawód
+しょくぎょう
+
+
+
+pracownik firmy
+かいしゃいん
+
+
+
+lekarz
+いしゃ
+
+
+
+pielęgniarz
+かんごし
+
+
+
+nauczyciel
+せんせい　・　きょうし
+
+
+
+inżynier
+エンジニア
+
+
+
+gospodyni domowa
+しゅふ
+
+
+
+sprzedawca
+てんいん
+みせのひと
+
+
+kelner
+ウェイター
+
+
+
+kelnerka
+ウェイトレス
+
+
+
+bezrobotny
+むしょく
+
+
+
+uczeń podstawówki
+しょうがくせい
+
+
+
+uczeń gimnazjum
+ちょうがくせい
+
+
+
+uczeń liceum
+こうこうせい
+
+
+
+uczeń studiów licencjackich
+だいがくせい
+
+
+
+uczeń studiów licencjackich
+だいがくいんせ
+
+
+
+student / uczeń
+がくせい
+
+
+
+szkoła
+がっこう
+
+
+
+szkoła podstawowa
+しょうがっこう
+
+
+
+gimnazjum
+ちゅうがっこう
+
+
+
+liceum
+こうこう
+
+
+
+uniwersytet pierwszego stopnia
+だいがく
+
+
+
+uniwersytet drugiego stopnia
+だいがくいん
+
+
+
+policjant
+けいさつかん　・けいかん
+
+
+
+strażak
+しょうぼうし
+
+
+
+polityk
+せいじか
+
+
+
+dziennikarz
+きしゃ　・　ジャーナリスト
+
+
+
+fotograf
+カメｒマン
+
+
+
+pilot
+パイロット
+
+
+
+kierowca
+うんてんしゅ
+
+
+
+stolarz
+だいく
+
+
+
+pisarz
+さっか
+
+
+
+piosenkarz
+かしゅ
+
+
+
+aktor
+はいゆう
+
+
+
+aktorka
+じょゆう
+
+
+
+kucharz
+りょうりにん
+
+
+
+fryzjer damski
+びようし
+
+
+
+fryzjer męski
+りようし
+
+
+
+rybak
+りょうし
+
+
+
+farmer / rolnik
+のおか
+
+
+
+wzajemnie / nawzajem
+こちらこそ
+
+
+
+Tokio
+とうきょう
+
+
+
+Supermarket
+スーパー
+
+
+
+szpital
+びょういん
+
+
+
+restauracja
+レストラン
+
+
+
+pracownik biurowy
+しゃいん
+
+
+
+~rok nauki / klasa
+〜ねんせい
+
+
+
+Seul
+ソウル
+
+
+
+Osaka
+おおさか
+
+
+
+Fukuoka
+ふくおか
+
+
+
+Szkoła w danym mieście (np. Gimnazjum we Wrocławiu)
+〜がっこう
+
+
+
+rodzina (moja)
+かぞく
+
+
+
+rodzina (cudza)
+ごかぞく
+
+
+
+dziadek (mój)
+そふ
+
+
+
+dziadek (cudzy)
+おじいさん
+
+
+
+babcia (moja)
+そぼ
+
+
+
+babcia (cudza)
+おばあさん
+
+
+
+tata (mój)
+ちち
+
+
+
+tata (cudzy)
+おとうさん
+
+
+
+mama (moja)
+はは
+
+
+
+mama (cudza)
+おかあさん
+
+
+
+starszy brat (mój)
+あに
+
+
+
+starszy brat (cudzy)
+おにいさん
+
+
+
+starsza siostra (moja)
+あね
+
+
+
+starsza siostra (cudza)
+おねえさん
+
+
+
+młodszy brat (mój)
+おとうと
+
+
+
+młodszy brat (cudzy)
+おとうとさん
+
+
+
+młodsza siostra (moja)
+いもうと
+
+
+
+młodsza siostra (cudza)
+いもうとさん
+
+
+
+rodzeństwo (moje)
+きょうだい
+
+
+
+rodzeństwo (cudze)
+ごきょうだい
+
+
+
+siostry (rodzeństwo) (moje)
+しまい
+
+
+
+siostry (rodzeństwo) (cudze)
+ごしまい
+
+
+
+wujek (mój)
+おじ
+
+
+
+wujek (cudzy)
+おじさん
+
+
+
+ciocia (moja)
+おば
+
+
+
+ciocia (cudza)
+おばさん
+
+
+
+mąż (mój)
+おっと
+
+
+
+mąż (cudzy)
+ごしゅじん
+
+
+
+żona (moja)
+つま
+
+
+
+żona (cudza)
+おくさん
+
+
+
+kuzyn / kuzynka / kuzynostwo (moje)
+いとこ
+
+
+
+kuzyn / kuzynka / kuzynostwo (cudze)
+いとこ
+
+
+
+~lat (wiek)
+〜さい
+
+
+
+ile masz lat?
+おいくつですか？　・　なんさいですか？
+
+
+
+Nara
+なら
+
+
+
+Kioto
+きょうと
+
+
+
+liczebnik osobowy
+〜にん
+
+
+
+jedna osoba / sam(a)
+ひとり
+
+
+
+samotnie / samodzielnie
+ひとりで
+
+
+
+dwie osoby
+ふたり
+
+
+
+we doje / w parze
+ふたりで
+
+
+
+i
+と
+
+
+
+czas
+じかん
+
+
+
+~godzina
+〜じ
+
+
+
+~minuta
+〜ふん　・　〜ぷん
+
+
+
+pół
+はん
+
+
+
+teraz
+いま
+
+
+
+godziny przedpołudniowe
+ごぜん
+
+
+
+godziny popołudniowe
+ごご
+
+
+
+która godzina?
+なんじ
+
+
+
+ile minut?
+なんぷん
+
+
+
+to tu
+これ
+
+
+
+to przy tobie
+それ
+
+
+
+to tam
+あれ
+
+
+
+książka
+ほん
+
+
+
+truskawka
+いちご
+
+
+
+gitara
+ギター
+
+
+
+parasol
+かさ
+
+
+
+krzesło
+いす
+
+
+
+stół
+つくえ
+
+
+
+biała tablica
+ホワイトボード
+
+
+
+drzwi
+ドア
+
+
+
+okno
+まど
+
+
+
+aparat fotograficzny
+カメラ
+
+
+
+telefon komórkowy
+けいたいでんわ
+
+
+
+telewizor
+テレビ
+
+
+
+ołówek
+えんぴつ
+
+
+
+gumka do ścierania
+けしゴム
+
+
+
+długopis / pióro
+ペン　・　ボールペン
+
+
+
+nożyczki
+はさみ
+
+
+
+skarpetki
+くつした
+
+
+
+torba
+かばん
+
+
+
+okularny
+めがね
+
+
+
+czapka / kapelusz
+ぼうし
+
+
+
+magazyn / czasopismo
+ざっし
+
+
+
+klucze
+かぎ
+
+
+
+organizer / kalendarzyk / traker
+てちょう
+
+
+
+komputer
+パソコン
+
+
+
+słownik
+じしょ
+
+
+
+buty
+くつ
+
+
+
+zegar
+とけい
+
+
+
+notatnik / zeszyt
+ノート
+
+
+
+ołówek automatyczny
+シャープペンシル
+
+
+
+język Angielski
+えいご
+
+
+
+jezyk Polski
+ポーランド
+
+
+
+język ~
+〜ご
+
+
+
+samochód
+くるま
+
+
+
+podręcznik (jap)
+きょうかしょ
+
+
+
+podręcznik (ang)
+テキスト
+
+
+
+gazeta
+しんぶん
+
+
+
+jaki?
+なんお
+
+
+
+biblioteka
+としょかん
+
+
+
+firma
+かいしゃ
+
+
+
+kto?
+だれ
+
+
+
+czyj?
+だれの
+
+
+
+który? która? które?
+どれ
+
+
+
+ten... tu
+この
+
+
+
+ten... przy tobie
+その
+
+
+
+ten... tam
+あの
+
+
+
+który?
+どの
+
+
+
+tutaj
+ここ
+
+
+
+tu koło ciebie
+そこ
+
+
+
+tam
+あそこ
+
+
+
+klasa (pomieszczenie)
+きょうしつ
+
+
+
+toaleta
+トイレ
+
+
+
+toaleta (jap)
+おてあらい
+
+
+
+stołówka
+しょくどう
+
+
+
+księgarnia
+ほんや
+
+
+
+bank
+ぎんこう
+
+
+
+piekarnia
+パンや
+
+
+
+park
+こうえん
+公園
+
+
+dworzec
+えき
+
+
+
+kościół
+きょうかい
+
+
+
+poczta
+ゆうびんきょく
+
+
+
+sklep z ~
+〜や
+
+
+
+skrzynka na listy
+ゆうびんポスト
+
+
+
+schody
+かいだん
+
+
+
+winda
+エレベーター
+
+
+
+schody ruchome
+エスカレーター
+
+
+
+biuro (jap)
+じむしょ
+
+
+
+biuro (eng)
+オフィス
+
+
+
+sala konferencyjna
+かいぎしつ
+
+
+
+recepcja
+うけつけ
+
+
+
+lobby / hol
+ロビー
+
+
+
+pokój (pomieszczenie)
+へや
+
+
+
+dom (własne bezpieczne miesjce)
+うち
+
+
+
+mieszkanie / dom (budynek)
+いえ
+
+
+
+gdzie?
+どこ？
+
+
+
+tutaj (grzecznościowo)
+こちら
+
+
+
+tu koło ciebie (grzecznościowo)
+そちら
+
+
+
+tam (grzecznościowo)
+あちら
+
+
+
+gdzie？ (grzecznościowo)
+どちら？
+
+
+
+skąd (pochodzi) / gdzie zostało wyprodukowane?
+どこの？
+
+
+
+elektryczność
+でんき
+
+
+
+dom handlowy
+デパート
+
+
+
+alejka z ~ (z danym produktem)
+〜うりば
+
+
+
+~ piętro
+〜かい
+
+
+
+które piętro?
+なんかい？
+
+
+
+pod ziemią / piwnica
+ちか
+
+
+
+miejsce parkingowe
+ちゅうしゃじょう
+
+
+
+kawiarnia
+コフィ
+
+
+
+ciasto
+ケーキ
+
+
+
+ubranie
+ふく
+
+
+
+buty (ang)
+ブーツ
+
+
+
+mięso
+にく
+
+
+
+ryba
+さかな
+
+
+
+warzywa
+やすい
+
+
+
+owoce
+くだもの
+
+
+
+forma grzecznościowa od ~desu
+〜で　ございます
+
+
+
+prawo (strona)
+みぎ
+
+
+
+lewo
+ひだり
+
+
+
+przed / z przodu
+まえ
+
+
+
+z tyłu / za
+うしら
+
+
+
+w środku / po środku
+なか
+
+
+
+na zewnątrz
+そと
+
+
+
+u góry / na górze / ponad
+うえ
+
+
+
+na dole / pod spodem / pod warstwą
+した
+
+
+
+blisko / niedaleko (czule)
+そば
+
+
+
+blisko / niedaleko (ozięble)
+ちかく
+
+
+
+obok (w otoczeniu czegoś)
+よこ
+
+
+
+obok / sąsiednio / bok w bok / rzeczy tego samego rodzaju / też daleko, ale nie ma nic pomiędzy
+となり
+
+
+
+pomiędzy
+あいだ
+
+
+
+pies
+いぬ
+
+
+
+kot
+ねこ
+
+
+
+kwiat
+はな
+花
+
+
+obraz
+え
+
+
+
+łóżko
+ベッド
+
+
+
+piórnik
+ペンたて
+
+
+
+półka na książki
+ほんだな
+
+
+
+hotel
+ホテル
+
+
+
+przystanek autobusowy
+バスてい
+
+
+
+ławka
+ベンチ
+
+
+
+tysiąc
+せん
+
+
+
+10 tysięcy
+まん
+
+
+
+~ yenów
+〜えん
+
+
+
+ile?
+いくら
+
+
+
+lody
+アイスクリーム
+
+
+
+pizza
+ピザ
+
+
+
+poproszę ~
+〜を　ください
+
+
+
+kawa
+コーヒー
+
+
+
+jabłko
+りんご
+
+
+
+banan
+バナナ
+
+
+
+gruszka
+ようなし
+
+
+
+hamburger
+ハンバーガー
+
+
+
+czekolada
+チョコレート
+
+
+
+herbata
+おちゃ
+
+
+
+woda
+みず
+
+
+
+jedna mała rzecz
+ひとつ
+
+
+
+dwie małe rzeczy
+ふたつ
+
+
+
+trzy małe rzeczy
+みっつ
+
+
+
+cztery małe rzeczy
+よっつ
+
+
+
+pięć małych rzeczy
+いつつ
+
+
+
+sześć małych rzeczy
+むっつ
+
+
+
+siedem małych rzeczy
+ななつ
+
+
+
+osiem małych rzeczy
+やっつ
+
+
+
+dziewięć małych rzeczy
+ここのつ
+
+
+
+dziesięć małych rzeczy
+とお
+
+
+
+ile małych rzeczy?
+いくつ
+
+
+
+warzywny sklep
+やおや
+
+
+
+pomidor
+トマト
+
+
+
+ziemniak
+じゃがいも
+
+
+
+kapusta
+キャベジ
+
+
+
+marchew
+にんじん
+
+
+
+cebula
+とまねぎ
+
+
+
+rzodkiew
+だいこん
+
+
+
+ogórek
+きゅうり
+
+
+
+reszta
+おつり
+
+
+
+jest tanio
+やすいです
+
+
+
+jest drogo
+たかいです
+
+
+
+zapraszamy / witamy
+いらっしゃいませ
+
+
+
+witaj / zapraszamy
+いらっしゃい
+
+
+
+eeeee... więc...
+えーと
+
+
+
+zatem / no, to...
+じゃ
+
+
+
+wszystko
+ぜんぶで
+
+
+
+poproszę ~ (forma grzecznościowa)
+〜で　おねがいします
+
+
+
+ach, rozumiem... (I see...)
+そうてすか
+
+
+
+menu
+メニュー
+
+
+
+ryż curry
+カレーライス
+
+
+
+ramen
+ラーメン
+
+
+
+udon
+うどん
+
+
+
+hamburger
+ハンバーガ
+
+
+
+kotlet wieprzowy podany na misce ryżu
+かつどん
+
+
+
+spagetti
+スパゲッティ
+
+
+
+sałata
+サラダ
+
+
+
+zupa
+ズープ
+
+
+
+drink
+ドリンク
+
+
+
+herbata mrożona
+アイスティー
+
+
+
+czarna herbata
+こうちゃ
+
+
+
+sok
+ジュース
+
+
+
+sok pomarańczowy
+オレンジジュース
+
+
+
+coca cola
+コーラ
+
+
+
+bez dodatków / samo / pojedyncze
+てんぴん
+
+
+
+zestaw / w zestawie
+セット
+
+
+
+polecane / rekomendowane
+おすすめ
+
+
+
+rachunek / rozliczenie
+（お）かいけい
+
+
+
+karta płatnicza
+カード
+
+
+
+gotówka
+げんきｎ
+
+
+
+dla ilu osób? (pytanie kelnera o stolik)
+なんめいさま　・　なんいん
+
+
+
+następnie / potem
+では
+
+
+
+proszę tutaj (podejść / przyjść / usiąść)
+こちらへ　どうぞ
+
+
+
+uprzejmie proszę (kelner do klienta)
+〜を　どうぞ
+
+
+
+zrozumiałem / przyjąłem zamówienie
+かいこまりました
+
+
+
+proszę chwilę poczekać
+しょうしょうおまちください
+
+
+
+za chwilę / trochę
+しょうしょう
+
+
+
+proszę poczekać
+おまちください
+
+
+
+przepraszam, że musiałeś czekać (kelner przy podaniu posiłku)
+おまたせいたしました
+
+
+
+rok ~ (kalendarzowy)
+〜ねん
+
+
+
+ile lat / który rok?
+なんねん
+
+
+
+miesiąc ~ (kalendarzowy, np. maj)
+〜がつ
+
+
+
+ile miesięcy / który miesiąc?
+なんがつ
+
+
+
+dni tygodnia
+ようび
+
+
+
+który dzień tygodnia?
+なにょうび？
+
+
+
+~ dzień miesiąca
+〜にち
+
+
+
+ile dni / który dzień miesiąca?
+なんにち
+
+
+
+urodziny
+たんじょうび
+
+
+
+kiedy?
+いつ
+
+
+
+2 lata temu
+おととし
+
+
+
+w zeszłym roku
+きょねん
+
+
+
+w tym roku
+ことし
+
+
+
+za rok
+らいねん
+
+
+
+za 2 lata
+さらいねん
+
+
+
+miesiąc (też księżyc)
+つき
+
+
+
+2 miesiące temu
+せんせんげつ
+
+
+
+miesiąc temu / w zeszłym meisiącu
+せんげつ
+
+
+
+w tym miesiącu
+こんげつ
+
+
+
+w przyszłym miesiącu
+らいげつ
+
+
+
+za 2 miesiące
+さらいげつ
+
+
+
+tydzień
+しゅう
+
+
+
+2 tygodnie temu
+せんせんしゅう
+
+
+
+tydzień temu
+せんしゅう
+
+
+
+w tym tygodniu
+こんしゅう
+
+
+
+za tydzień
+らいしゅう
+
+
+
+za 2 tygodnie
+さらいしゅう
+
+
+
+dzień
+ひ
+
+
+
+2 dni temu
+おととい
+
+
+
+wczoraj
+きのう
+
+
+
+dziś
+きょう
+
+
+
+jutro
+あした
+
+
+
+za 2 dni, pojutrze
+あさって
+
+
+
+pory roku
+きせつ
+
+
+
+wiosna
+はる
+
+
+
+lato
+なつ
+
+
+
+jesień
+あき
+
+
+
+zima
+ふゆ
+
+
+
+kwiecień
+しがつ
+
+
+
+lipiec
+しちがつ
+
+
+
+wrzesień
+くがつ
+
+
+
+poniedziałek
+げつようび
+
+
+
+wtorek
+かようび
+
+
+
+środa
+すいようび
+
+
+
+czwartek
+もくようび
+
+
+
+piątek
+きにょうび
+
+
+
+sobota
+どようび
+
+
+
+niedziela
+にちようび
+
+
+
+pierwszy dzień miesiąca
+ついたち
+
+
+
+drugi dzień miesiąca
+ふつか
+
+
+
+trzeci dzień miesiąca
+みっか
+
+
+
+czwarty dzień miesiąca
+よっか
+
+
+
+piąty dzień miesiąca
+いつか
+
+
+
+szósty dzień miesiąca
+むいか
+
+
+
+siódmy dzień miesiąca
+なのか
+
+
+
+ósmy dzień miesiąca
+ようか
+
+
+
+dziewiąty dzień miesiąca
+ここのか
+
+
+
+dziesiąty dzień miesiąca
+とおか
+
+
+
+czternasty dzień miesiąca
+じゅうよっか
+
+
+
+siedemnasty dzień miesiąca
+じゅうしちにち
+
+
+
+dwudziesty dzień miesiąca
+はつか
+
+
+
+dwudziesty czwarty dzień miesiąca
+にじゅうよっか
+
+
+
+dwudziesty siódmy dzień miesiąca
+にじゅうしちにち
+
+
+
+dwudziesty dziewiąty dzień miesiąca
+にじゅうくにち
+
+
+
+trzydziesty pierwszy dzień meisiąca
+さんじゅういちにち
+
+
 
 poranek
 あさ
 朝
-⬊
+
 
 południe
 ひる
 昼
-⬈
+
 
 wieczór
 ばん
 晩
-⬊
+
 
 noc
 よる
 夜
-⬊
 
-tego wieczora
+
+dzieś wieczorem
 こんばん
 今晩
-⬊
+
 
 codziennie rano
 まいあさ
 毎朝
-⬊
 
-każdego wieczora
+
+co noc
 まいばん
 毎晩
-⬊
 
-każdego dnia
+
+codziennie
 まいにち
 毎日
-⬊
 
-każdego tygodnia
+
+co tydzień
 まいしゅう
 毎週
-⬈
+
 
 każdego miesiąca
 まいつき
 毎月
-⬈
+
 
 każdego roku
 まいとし
 毎年
-⬈
+
 
 weekend
 しゅうまつ
 週末
-⬈
 
-dzień powszedni / pracujący
+
+dzień tygodnia
 へいじつ
 平日
-⬈
+
 
 zawsze
 いつも
 
-⬊
+
 
 Wielkanoc
-イースター
+イスタ
 
-⬊
 
-Spać
+
+spać
 ねます
 寝ます
-⬈
 
-Wstawać, budzić się
+
+wstawać
 おきます
 起きます
-⬈
+
 
 kiedy
 いつ
 
-⬊
+
+
+przyjaciel
+ともだち
+友達
+
+
+muzeum sztuki
+びじゅつかん
+美術館
+
+
+kino
+えいがかん
+映画館
+
+
+iść gdzieś
+いきます
+行きます
+
+
+przychodzić
+きます
+来ます
+
+
+wracać
+かえります
+帰ります
+
+
+przyjęcie
+パーティー
+
+
+
+grill
+バーベキュー
+
+
+
+halo (przez telefon)
+もしもし
+
+
+
+w porządku
+だいじょうぶ
+大丈夫
+
+
+zrozumiałem
+わかりました
+
+
+
+do jutra
+またあした
+また　明日
+
+
+do zobaczenia za tydzień
+またらいしゅう
+また　来週
+
+
+około ~ godziny
+〜ごろ
+〜頃
+
+
+przed ~ godziną
+〜まえ
+〜前
+
+
+muzyka
+おんがく
+音楽
+
+
+muzyka rockowa
+ロック
+
+
+
+muzyka klasyczna
+クラシック
+
+
+
+muzyka jazzowa
+ジャズ
+
+
+
+muzyka pop
+ポップ
+
+
+
+kalendarz
+カレンダー
+
+
+
+film
+えいが
+映画
+
+
+horror
+ホラーえいが
+ホラー映画
+
+
+komedia
+コメティえいが
+コメティ映画
+
+
+film akcji
+アクションえいが
+アクション映画
+
+
+Si-Fi
+エスエフえいが
+SF漫画
+
+
+romans
+れんあいえいが
+恋愛映画
+
+
+anime
+アニメ
+
+
+
+manga
+マンガ
+
+
+
+list miłosny
+ラブレター
+
+
+
+list
+てがみ
+手紙
+
+
+raport
+ラポート
+
+
+
+jedzenie
+たべもの
+食べ物
+
+
+gotowany ryż / posiłek
+ごはん
+ご飯
+
+
+chleb
+パン
+
+
+
+jajko
+たまご
+卵
+
+
+szynka
+ハム
+
+
+
+jogurt
+ヨーグルト
+
+
+
+stek
+ステーキ
+
+
+
+sushi
+すし
+寿司
+
+
+napój
+のみもの
+飲み物
+
+
+piwo
+ビール
+
+
+
+wino
+ワイン
+
+
+
+mleko
+ぎゅうにゅう
+牛乳
+
+
+alkohol
+おさけ
+お酒
+
+
+sport
+スポーツ
+
+
+
+tenis
+テニス
+
+
+
+piłka nożna
+サッカー
+
+
+
+baseball
+やきゅう
+野球
+
+
+golf
+ゴルフ
+
+
+
+piłka siatkowa
+バレーボール
+
+
+
+jazda na nartach
+スキー
+
+
+
+gra
+ゲーム
+
+
+
+internet
+インターネット
+
+
+
+słuchać
+ききます
+聞きます
+
+
+patrzeć
+みます
+見ます
+
+
+czytać
+よみます
+読みます
+
+
+pisać
+かきます
+書きます
+
+
+jeść
+たべます
+食べます
+
+
+pić
+のみます
+飲みます
+
+
+robić
+します
+
+
+
+co
+なに
+何
+
+
+jaki? jaka? jakie?
+どんな
+
+
+
+chłopak (partner)
+かれ・かれし
+彼・彼氏
+
+
+dziewczyna (partnerka)
+かのじょ
+彼女
+
+
+sam / samotnie / samodzielnie
+ひとりで
+一人で
+
+
+kupować
+かいます
+買います
+
+
+rozmawiać
+はなします
+話します
+
+
+robić zakupy
+かいものします
+買い物します
+
+
+zakupy
+かいもの
+買い物
+
+
+telefonować
+でんわします
+電話します
+
+
+telefon
+でんわ
+電話
+
+
+uczyć się
+べんきょうします
+勉強します
+
+
+nauka
+べんきょう
+勉強
+
+
+randka
+デート
+
+
+
+"spoko, nie?"
+いいですね
+
+
+
+śniadanie
+あさごはん
+朝ご飯
+
+
+obiad
+ひるごはん
+昼ご飯
+
+
+kolacja
+ばんごはん
+晩ご飯
+
+
+czas wolny / odpoczynek
+やすみ
+休み
+
+
+wakacje
+なつやすみ
+夏休み
+
+
+przerwa zimowa
+ふゆやすみ
+冬休み
+
+
+potrawa
+りょうり
+料理
+
+
+kuchnia polska
+ポーランドりょうり
+ポーランド料理
+
+
+robić, przyrządzać, produkować, tworzyć, konstruować, hodować, pielęgnować,
+つくります
+作ります
+
+
+odpoczywać
+やすみます
+休みます
+
+
+brać prysznic
+シャワーをあびます
+シャワーを浴びます
+
+
+umyć zęby
+はをみがきます
+歯を磨きます
+
+
+a następnie...
+それから
+
+
+
+a także...
+そして
+
+
+
+wykonywany zawód
+しごと
+仕事
+
+
+miejsce pracy, firma, korporacja
+かいしゃ
+会社
+
+
+pracować, funkcjonować, działać, operować, być skutecznym, popełniać, robić
+はたらきます
+働きます
+
+
+pracować, zajmować się czymś, być zatrudnionym jako, wykonywać zadania w pracy, przedsiębrać
+しごとします
+仕事します
+
+
+spotkać się / napotkać
+あいます
+会います
+
+
+palić papierosy
+たばこをすいます
+タバコを吸います
+
+
+sprzątać
+そうじします
+掃除します
+
+
+sprzątanie
+そうじ
+掃除
+
+
+żaden / nic
+なにも
+何も
+
+
+nigdzie
+とこ（に・へ）も
+
+
+z nikim więcej / nikt więcej
+だれとも
+誰とも
+
+
+nikt
+だれも
+誰も
+
+
+co się stało?　co się działo? (ogólnie)
+とうしましたか
+
+
+
+co się wydarzyło? (dokłあdnie, szczegółowo)
+なにをしましたか
+
+
+
+
+pieniądze
+おかね
+お金
+
+
+nie mam pieniędzy
+おかねがありません
+お金がありませ
+
+
+noga, stopa, chód, krok, sposób chodzenia, środek transportu
+あし
+足
+
+
+boli mnie noga
+あしがいたいです
+足が痛いです
+
+
+jest zadanie domowe
+しゅくだいがあります
+宿題があります
+
+
+piosenka, klasyczna japońska poezja
+うた
+歌
+
+
+śpiewać, recytować wiersz
+うたいます
+歌います
+
+
+tańczyć, podskakiwać
+おどります
+踊ります
+
+
+gotować
+りょうりします
+料理します
+
+
+ćwiczyć fizycznie
+うんどうします
+運動します
+
+
+ćwiczenie fizyczne, trening, akcja, poruszanie się
+うんどう
+運動
+
+
+chodzić, spacerować
+さんぽします
+散歩します
+
+
+spacer, przechadzka
+さんぽ
+散歩
+
+
+kierować, jeździć, prowadzić pojazd
+うんてんします
+運転します
+
+
+jazda, kierowanie pojazdem, prowadzenie pojazdu
+うんてん
+運転
+
+
+często
+よく
+
+
+
+czasami, chwilami, niekiedy, od czasu do czasu
+ときどき
+時々
+
+
+rzadko
+あまり
+
+
+
+w ogóle, w cale, całkowicie, kompletnie
+ぜんぜん
+全然
+
+
+częstotliwość / częstość robienia
+ひんど
+頻度
+
+
+tego ranka (krótko)
+けさ・こんちょう
+今朝
+
+
+mieć wolne (od czegoś), być nieobecnym, odpoczywać, iść do łóżka
+〜をやすみます
+〜を休みます
+
+
+prać
+せんたくします
+洗濯します
+
+
+pranie
+せんたく
+洗濯
+
+
+mówić, powiedzieć, wyrażać, wypowiadać
+いいます
+言います
+
+
+iść gdzieś pieszo / chodzić / zwiedzać
+あるきます
+歩きます
+
+
+biegać, biec, jechać (o pojazdach), spieszyć się
+はしります
+走ります
+
+
+siadać、siedzieć, zajmować miejsce
+すわります
+座ります
+
+
+stać, wstawać, powstać
+たちます
+立ちます
+
+
+podróżować
+りょこうします
+旅行します
+
+
+ćwiczyć, praktykować
+れんしゅうします
+練習します
+
+
+spożywać posiłek ((have) breakfast, lunch, dinner)
+しょくじします
+食事します
+
+
+bawić się, zabawiać się, miło spędzać czas
+あそびます
+遊びます
+
+
+doświadczenie
+けいけん
+経験
+
+
+życie, egzystencja, środki utrzymania
+せいかつ
+生活
+
+
+miłość, uczucie, troska
+あい
+愛
+
+
+góra
+やま・さん
+山
+
+
+niebieski, zielony, niedojrzały
+あお
+青
+
+
+dobrze
+いい
+
+
+
+czerwony
+あか
+赤
+
+
+twarz, oblicze, wygląd, wyraz twarzy
+かお
+顔
+
+
+maszyna, machina, mechanizm, instrument, aparat
+きかい
+機械
+
+
+muszla, małż, skorupiak, mięczak
+かい
+貝
+
+
+drzewo, krzew, krzak, drewno
+き
+木
+
+
+powietrze, atmosfera, sytuacja
+くうき
+空気
+
+
+sól
+しお
+塩
+
+
+świat, społeczeństwo, wszechświat
+せかい
+世界
+
+
+wodorosty
+かいそう
+海藻
+
+
+usta, otwór, przerwa, dzióra, szpara, drzwi, wejście, wyjście, szyjka butelki, otwór wylotowy, ustnik, mowa, smak, wolne stanowisko
+くち
+口
+
+
+ośmiornica
+たこ
+蛸
+
+
+cukier
+さとう
+砂糖
+
+
+ręka, dłoń, ramię, uchwyt, robotnik, pomoc, trud, sposób, metoda, odręczne pismo
+て
+手
+
+
+grzyb
+きのこ
+菌
+
+
+osoba dorosła
+おとな
+大人
+
+
+nos
+はな
+鼻
+
+
+samolot
+ひこうき
+飛行機
+
+
+gwiazda
+ほし
+星
+
+
+statek, okręt, łódź, zbiornik, koryto
+ふね
+船
+
+
+zarost
+ひげ
+髭
+
+
+kości, ości, szkielet, wysiłek
+ほね
+骨
+
+
+portfel
+さいふ
+財布
+
+
+pałeczki
+はし
+箸
+
+
+most
+はし
+柱
+
+
+sezam
+ごま
+胡麻
+
+
+brzoswinia
+もも
+桃
+
+
+ucho
+みみ
+耳
+
+
+owad
+むし
+虫
+
+
+okulary
+めがね
+眼鏡
+
+
+ryż
+こめ
+米
+
+
+miasto
+まち
+街
+
+
+chmura
+くも
+雲
+
+
+pająk
+くも
+蜘蛛
+
+
+koń
+うま
+馬
+
+
+słoń
+ぞう
+象
+
+
+zagranica
+がいこく
+外国
+
+
+soja
+だいず
+大豆
+
+
+mapa
+ちず
+地図
+
+
+konferencja
+かいぎ
+会議
+
+
+wyjście
+でぐち
+出口
+
+
+drewniane japonki
+げた
+下駄
+
+
+polityka
+せいじ
+政治
+
+
+smak
+あじ
+味
+
+
+ogon
+しっぽ
+尻尾
+
+
+znaczek pocztowy
+きって
+切手
+
+
+bilet
+きっぷ
+切符
+
+
+jeden raz (ikkai)
+いっかい
+一回
+
+
+garnek
+なべ
+鍋
+
+
+pierścionek
+ゆびわ
+指輪
+
+
+świnia
+ぶた
+豚
+
+
+śnieg
+ゆき
+雪
+
+
+koza
+やぎ
+山羊
+
+
+koziorożec
+やぎ
+野羊
+
+
+wolność
+じゆう
+自由
+
+
+rezerwacja
+よゆく
+予約
+
+
+bałwan (ze śniegu)
+ゆきだるま
+雪だるま
+
+
+talerze
+さら
+皿
+
+
+łazienka
+ふろ
+風呂
+
+
+mgła
+きり
+霧
+
+
+lodówka
+れいぞうこ
+冷蔵庫
+
+
+lekarstwo
+くすり
+薬
+
+
+rzeka
+〜かわ
+〜川
+
+
+krokodyl
+わに
+鰐
+
+
+ogród
+にわ
+庭
+
+
+gość
+きゃく
+客
+
+
+zdjęcie (przestarzale)
+しゃしん
+写真・寫眞・寫真
+
+
+import
+ゆにゅう
+輸入
+
+
+lekcja
+じゅぎょう
+授業
+
+
+podróż
+りょこう
+旅行

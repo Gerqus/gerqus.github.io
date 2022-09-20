@@ -1,141 +1,774 @@
 poranek
+あさ
+朝
+
+
 południe
+ひる
+昼
+
+
 wieczór
+ばん
+晩
+
+
 noc
+よる
+夜
+
+
 dzieś wieczorem
+こんばん
+今晩
+
+
 codziennie rano
+まいあさ
+毎朝
+
+
 co noc
+まいばん
+毎晩
+
+
 codziennie
+まいにち
+毎日
+
+
 co tydzień
+まいしゅう
+毎週
+
+
 każdego miesiąca
+まいつき
+毎月
+
+
 każdego roku
+まいとし
+毎年
+
+
 weekend
+しゅうまつ
+週末
+
+
 dzień tygodnia
+へいじつ
+平日
+
+
 zawsze
+いつも
+
+
+
 Wielkanoc
+イスタ
+
+
+
 spać
+ねます
+寝ます
+
+
 wstawać
+おきます
+起きます
+
+
 kiedy
+いつ
+
+
+
 przyjaciel
+ともだち
+友達
+
+
 muzeum sztuki
+びじゅつかん
+美術館
+
+
 kino
+えいがかん
+映画館
+
+
 iść gdzieś
+いきます
+行きます
+
+
 przychodzić
+きます
+来ます
+
+
 wracać
+かえります
+帰ります
+
+
 przyjęcie
+パーティー
+
+
+
 grill
+バーベキュー
+
+
+
 halo (przez telefon)
+もしもし
+
+
+
 w porządku
+だいじょうぶ
+大丈夫
+
+
 zrozumiałem
+わかりました
+
+
+
 do jutra
+またあした
+また　明日
+
+
 do zobaczenia za tydzień
+またらいしゅう
+また　来週
+
+
 około ~ godziny
+〜ごろ
+〜頃
+
+
 przed ~ godziną
+〜まえ
+〜前
+
+
 muzyka
+おんがく
+音楽
+
+
 muzyka rockowa
+ロック
+
+
+
 muzyka klasyczna
+クラシック
+
+
+
 muzyka jazzowa
+ジャズ
+
+
+
 muzyka pop
+ポップ
+
+
+
 kalendarz
+カレンダー
+
+
+
 film
+えいが
+映画
+
+
 horror
+ホラーえいが
+ホラー映画
+
+
 komedia
+コメティえいが
+コメティ映画
+
+
 film akcji
+アクションえいが
+アクション映画
+
+
 Si-Fi
+エスエフえいが
+SF漫画
+
+
 romans
+れんあいえいが
+恋愛映画
+
+
 anime
+アニメ
+
+
+
 manga
+マンガ
+
+
+
 list miłosny
+ラブレター
+
+
+
 list
+てがみ
+手紙
+
+
 raport
+ラポート
+
+
+
 jedzenie
-gotowany ryżposiłek
+たべもの
+食べ物
+
+
+gotowany ryż / posiłek
+ごはん
+ご飯
+
+
 chleb
+パン
+
+
+
 jajko
+たまご
+卵
+
+
 szynka
+ハム
+
+
+
 jogurt
+ヨーグルト
+
+
+
 stek
+ステーキ
+
+
+
 sushi
+すし
+寿司
+
+
 napój
+のみもの
+飲み物
+
+
 piwo
+ビール
+
+
+
 wino
+ワイン
+
+
+
 mleko
+ぎゅうにゅう
+牛乳
+
+
 alkohol
+おさけ
+お酒
+
+
 sport
+スポーツ
+
+
+
 tenis
+テニス
+
+
+
 piłka nożna
+サッカー
+
+
+
 baseball
+やきゅう
+野球
+
+
 golf
+ゴルフ
+
+
+
 piłka siatkowa
+バレーボール
+
+
+
 jazda na nartach
+スキー
+
+
+
 gra
+ゲーム
+
+
+
 internet
+インターネット
+
+
+
 słuchać
+ききます
+聞きます
+
+
 patrzeć
+みます
+見ます
+
+
 czytać
+よみます
+読みます
+
+
 pisać
+かきます
+書きます
+
+
 jeść
+たべます
+食べます
+
+
 pić
+のみます
+飲みます
+
+
 robić
+します
+
+
+
 co
+なに
+何
+
+
 jaki? jaka? jakie?
+どんな
+
+
+
 chłopak (partner)
+かれ・かれし
+彼・彼氏
+
+
 dziewczyna (partnerka)
+かのじょ
+彼女
+
+
 sam / samotnie / samodzielnie
+ひとりで
+一人で
+
+
 kupować
+かいます
+買います
+
+
 rozmawiać
+はなします
+話します
+
+
 robić zakupy
+かいものします
+買い物します
+
+
 zakupy
+かいもの
+買い物
+
+
 telefonować
+でんわします
+電話します
+
+
 telefon
+でんわ
+電話
+
+
 uczyć się
+べんきょうします
+勉強します
+
+
 nauka
+べんきょう
+勉強
+
+
 randka
-"spoko, nie?"śniadanie
+デート
+
+
+
+"spoko, nie?"
+いいですね
+
+
+
+śniadanie
+あさごはん
+朝ご飯
+
+
 obiad
+ひるごはん
+昼ご飯
+
+
 kolacja
+ばんごはん
+晩ご飯
+
+
 czas wolny / odpoczynek
+やすみ
+休み
+
+
 wakacje
+なつやすみ
+夏休み
+
+
 przerwa zimowa
+ふゆやすみ
+冬休み
+
+
 potrawa
+りょうり
+料理
+
+
 kuchnia polska
-robić, przyrządzać
+ポーランドりょうり
+ポーランド料理
+
+
+robić, przyrządzać, produkować, tworzyć, konstruować, hodować, pielęgnować,
+つくります
+作ります
+
+
 odpoczywać
+やすみます
+休みます
+
+
 brać prysznic
+シャワーをあびます
+シャワーを浴びます
+
+
 umyć zęby
+はをみがきます
+歯を磨きます
+
+
 a następnie...
+それから
+
+
+
 a także...
+そして
+
+
+
 wykonywany zawód
-miejsce pracy
-pracować
-spotykać się
+しごと
+仕事
+
+
+miejsce pracy, firma, korporacja
+かいしゃ
+会社
+
+
+pracować, funkcjonować, działać, operować, być skutecznym, popełniać, robić
+はたらきます
+働きます
+
+
+pracować, zajmować się czymś, być zatrudnionym jako, wykonywać zadania w pracy, przedsiębrać
+しごとします
+仕事します
+
+
+spotkać się / napotkać
+あいます
+会います
+
+
 palić papierosy
+たばこをすいます
+タバコを吸います
+
+
 sprzątać
+そうじします
+掃除します
+
+
 sprzątanie
-żaden / niz
+そうじ
+掃除
+
+
+żaden / nic
+なにも
+何も
+
+
 nigdzie
+とこ（に・へ）も
+
+
+z nikim więcej / nikt więcej
+だれとも
+誰とも
+
+
 nikt
-co się stało?
+だれも
+誰も
+
+
+co się stało?　co się działo? (ogólnie)
+とうしましたか
+
+
+
+co się wydarzyło? (dokłあdnie, szczegółowo)
+なにをしましたか
+
+
+
+
 pieniądze
+おかね
+お金
+
+
 nie mam pieniędzy
-noga
+おかねがありません
+お金がありませ
+
+
+noga, stopa, chód, krok, sposób chodzenia, środek transportu
+あし
+足
+
+
 boli mnie noga
-piosenka
-śpiewać
-tańczyć
+あしがいたいです
+足が痛いです
+
+
+jest zadanie domowe
+しゅくだいがあります
+宿題があります
+
+
+piosenka, klasyczna japońska poezja
+うた
+歌
+
+
+śpiewać, recytować wiersz
+うたいます
+歌います
+
+
+tańczyć, podskakiwać
+おどります
+踊ります
+
+
 gotować
+りょうりします
+料理します
+
+
 ćwiczyć fizycznie
-ćwiczenie fizyczne
+うんどうします
+運動します
+
+
+ćwiczenie fizyczne, trening, akcja, poruszanie się
+うんどう
+運動
+
+
 chodzić, spacerować
-spacer
-kierować
-jeździć
+さんぽします
+散歩します
+
+
+spacer, przechadzka
+さんぽ
+散歩
+
+
+kierować, jeździć, prowadzić pojazd
+うんてんします
+運転します
+
+
+jazda, kierowanie pojazdem, prowadzenie pojazdu
+うんてん
+運転
+
+
 często
-czasami
+よく
+
+
+
+czasami, chwilami, niekiedy, od czasu do czasu
+ときどき
+時々
+
+
 rzadko
-w ogóle (nie robić)
+あまり
+
+
+
+w ogóle, w cale, całkowicie, kompletnie
+ぜんぜん
+全然
+
+
 częstotliwość / częstość robienia
+ひんど
+頻度
+
+
 tego ranka (krótko)
-mieć wolne (od czegoś)
+けさ・こんちょう
+今朝
+
+
+mieć wolne (od czegoś), być nieobecnym, odpoczywać, iść do łóżka
+〜をやすみます
+〜を休みます
+
+
 prać
+せんたくします
+洗濯します
+
+
 pranie
+せんたく
+洗濯
+
+
+mówić, powiedzieć, wyrażać, wypowiadać
+いいます
+言います
+
+
+iść gdzieś pieszo / chodzić / zwiedzać
+あるきます
+歩きます
+
+
+biegać, biec, jechać (o pojazdach), spieszyć się
+はしります
+走ります
+
+
+siadać、siedzieć, zajmować miejsce
+すわります
+座ります
+
+
+stać, wstawać, powstać
+たちます
+立ちます
+
+
+podróżować
+りょこうします
+旅行します
+
+
+ćwiczyć, praktykować
+れんしゅうします
+練習します
+
+
+spożywać posiłek ((have) breakfast, lunch, dinner)
+しょくじします
+食事します
+
+
+bawić się, zabawiać się, miło spędzać czas
+あそびます
+遊びます
+

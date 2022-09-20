@@ -2,1038 +2,1301 @@ to tu
 これ
 
 
+
 to przy tobie
 それ
+
 
 
 to tam
 あれ
 
 
+
 książka
 ほん
+
 
 
 truskawka
 いちご
 
 
+
 gitara
 ギター
+
 
 
 parasol
 かさ
 
 
+
 krzesło
 いす
+
 
 
 stół
 つくえ
 
 
+
 biała tablica
 ホワイトボード
+
 
 
 drzwi
 ドア
 
 
+
 okno
 まど
+
 
 
 aparat fotograficzny
 カメラ
 
 
+
 telefon komórkowy
 けいたいでんわ
+
 
 
 telewizor
 テレビ
 
 
+
 ołówek
 えんぴつ
+
 
 
 gumka do ścierania
 けしゴム
 
 
+
 długopis / pióro
 ペン　・　ボールペン
+
 
 
 nożyczki
 はさみ
 
 
+
 skarpetki
 くつした
+
 
 
 torba
 かばん
 
 
+
 okularny
 めがね
+
 
 
 czapka / kapelusz
 ぼうし
 
 
+
 magazyn / czasopismo
 ざっし
+
 
 
 klucze
 かぎ
 
 
+
 organizer / kalendarzyk / traker
 てちょう
+
 
 
 komputer
 パソコン
 
 
+
 słownik
 じしょ
+
 
 
 buty
 くつ
 
 
+
 zegar
 とけい
+
 
 
 notatnik / zeszyt
 ノート
 
 
+
 ołówek automatyczny
 シャープペンシル
+
 
 
 język Angielski
 えいご
 
 
+
 jezyk Polski
 ポーランド
+
 
 
 język ~
 〜ご
 
 
+
 samochód
 くるま
+
 
 
 podręcznik (jap)
 きょうかしょ
 
 
+
 podręcznik (ang)
 テキスト
+
 
 
 gazeta
 しんぶん
 
 
+
 jaki?
 なんお
+
 
 
 biblioteka
 としょかん
 
 
+
 firma
 かいしゃ
+
 
 
 kto?
 だれ
 
 
+
 czyj?
 だれの
+
 
 
 który? która? które?
 どれ
 
 
+
 ten... tu
 この
+
 
 
 ten... przy tobie
 その
 
 
+
 ten... tam
 あの
+
 
 
 który?
 どの
 
 
+
 tutaj
 ここ
+
 
 
 tu koło ciebie
 そこ
 
 
+
 tam
 あそこ
+
 
 
 klasa (pomieszczenie)
 きょうしつ
 
 
+
 toaleta
 トイレ
+
 
 
 toaleta (jap)
 おてあらい
 
 
+
 stołówka
 しょくどう
+
 
 
 księgarnia
 ほんや
 
 
+
 bank
 ぎんこう
+
 
 
 piekarnia
 パンや
 
 
+
 park
 こうえん
+公園
+
 
 
 dworzec
 えき
 
 
+
 kościół
 きょうかい
+
 
 
 poczta
 ゆうびんきょく
 
 
+
 sklep z ~
 〜や
+
 
 
 skrzynka na listy
 ゆうびんポスト
 
 
+
 schody
 かいだん
+
 
 
 winda
 エレベーター
 
 
+
 schody ruchome
 エスカレーター
+
 
 
 biuro (jap)
 じむしょ
 
 
+
 biuro (eng)
 オフィス
+
 
 
 sala konferencyjna
 かいぎしつ
 
 
+
 recepcja
 うけつけ
+
 
 
 lobby / hol
 ロビー
 
 
+
 pokój (pomieszczenie)
 へや
+
 
 
 dom (własne bezpieczne miesjce)
 うち
 
 
+
 mieszkanie / dom (budynek)
 いえ
+
 
 
 gdzie?
 どこ？
 
 
+
 tutaj (grzecznościowo)
 こちら
+
 
 
 tu koło ciebie (grzecznościowo)
 そちら
 
 
+
 tam (grzecznościowo)
 あちら
+
 
 
 gdzie？ (grzecznościowo)
 どちら？
 
 
+
 skąd (pochodzi) / gdzie zostało wyprodukowane?
 どこの？
+
 
 
 elektryczność
 でんき
 
 
+
 dom handlowy
 デパート
+
 
 
 alejka z ~ (z danym produktem)
 〜うりば
 
 
+
 ~ piętro
 〜かい
+
 
 
 które piętro?
 なんかい？
 
 
+
 pod ziemią / piwnica
 ちか
+
 
 
 miejsce parkingowe
 ちゅうしゃじょう
 
 
+
 kawiarnia
 コフィ
+
 
 
 ciasto
 ケーキ
 
 
+
 ubranie
 ふく
+
 
 
 buty (ang)
 ブーツ
 
 
+
 mięso
 にく
+
 
 
 ryba
 さかな
 
 
+
 warzywa
 やすい
+
 
 
 owoce
 くだもの
 
 
+
 forma grzecznościowa od ~desu
 〜で　ございます
+
 
 
 prawo (strona)
 みぎ
 
 
+
 lewo
 ひだり
+
 
 
 przed / z przodu
 まえ
 
 
+
 z tyłu / za
 うしら
+
 
 
 w środku / po środku
 なか
 
 
+
 na zewnątrz
 そと
+
 
 
 u góry / na górze / ponad
 うえ
 
 
+
 na dole / pod spodem / pod warstwą
 した
+
 
 
 blisko / niedaleko (czule)
 そば
 
 
+
 blisko / niedaleko (ozięble)
 ちかく
+
 
 
 obok (w otoczeniu czegoś)
 よこ
 
 
+
 obok / sąsiednio / bok w bok / rzeczy tego samego rodzaju / też daleko, ale nie ma nic pomiędzy
 となり
+
 
 
 pomiędzy
 あいだ
 
 
+
 pies
 いぬ
+
 
 
 kot
 ねこ
 
 
+
 kwiat
 はな
+花
+
 
 
 obraz
 え
 
 
+
 łóżko
 ベッド
+
 
 
 piórnik
 ペンたて
 
 
+
 półka na książki
 ほんだな
+
 
 
 hotel
 ホテル
 
 
+
 przystanek autobusowy
 バスてい
+
 
 
 ławka
 ベンチ
 
 
+
 tysiąc
 せん
+
 
 
 10 tysięcy
 まん
 
 
+
 ~ yenów
 〜えん
+
 
 
 ile?
 いくら
 
 
+
 lody
 アイスクリーム
+
 
 
 pizza
 ピザ
 
 
+
 poproszę ~
 〜を　ください
+
 
 
 kawa
 コーヒー
 
 
+
 jabłko
 りんご
+
 
 
 banan
 バナナ
 
 
+
 gruszka
 ようなし
+
 
 
 hamburger
 ハンバーガー
 
 
+
 czekolada
 チョコレート
+
 
 
 herbata
 おちゃ
 
 
+
 woda
 みず
+
 
 
 jedna mała rzecz
 ひとつ
 
 
+
 dwie małe rzeczy
 ふたつ
+
 
 
 trzy małe rzeczy
 みっつ
 
 
+
 cztery małe rzeczy
 よっつ
+
 
 
 pięć małych rzeczy
 いつつ
 
 
+
 sześć małych rzeczy
 むっつ
+
 
 
 siedem małych rzeczy
 ななつ
 
 
+
 osiem małych rzeczy
 やっつ
+
 
 
 dziewięć małych rzeczy
 ここのつ
 
 
+
 dziesięć małych rzeczy
 とお
+
 
 
 ile małych rzeczy?
 いくつ
 
 
+
 warzywny sklep
 やおや
+
 
 
 pomidor
 トマト
 
 
+
 ziemniak
 じゃがいも
+
 
 
 kapusta
 キャベジ
 
 
+
 marchew
 にんじん
+
 
 
 cebula
 とまねぎ
 
 
+
 rzodkiew
 だいこん
+
 
 
 ogórek
 きゅうり
 
 
+
 reszta
 おつり
+
 
 
 jest tanio
 やすいです
 
 
+
 jest drogo
 たかいです
+
 
 
 zapraszamy / witamy
 いらっしゃいませ
 
 
+
 witaj / zapraszamy
 いらっしゃい
+
 
 
 eeeee... więc...
 えーと
 
 
+
 zatem / no, to...
 じゃ
+
 
 
 wszystko
 ぜんぶで
 
 
+
 poproszę ~ (forma grzecznościowa)
 〜で　おねがいします
+
 
 
 ach, rozumiem... (I see...)
 そうてすか
 
 
+
 menu
 メニュー
+
 
 
 ryż curry
 カレーライス
 
 
+
 ramen
 ラーメン
+
 
 
 udon
 うどん
 
 
+
 hamburger
 ハンバーガ
+
 
 
 kotlet wieprzowy podany na misce ryżu
 かつどん
 
 
+
 spagetti
 スパゲッティ
+
 
 
 sałata
 サラダ
 
 
+
 zupa
 ズープ
+
 
 
 drink
 ドリンク
 
 
+
 herbata mrożona
 アイスティー
+
 
 
 czarna herbata
 こうちゃ
 
 
+
 sok
 ジュース
+
 
 
 sok pomarańczowy
 オレンジジュース
 
 
+
 coca cola
 コーラ
+
 
 
 bez dodatków / samo / pojedyncze
 てんぴん
 
 
+
 zestaw / w zestawie
 セット
+
 
 
 polecane / rekomendowane
 おすすめ
 
 
+
 rachunek / rozliczenie
 （お）かいけい
+
 
 
 karta płatnicza
 カード
 
 
+
 gotówka
 げんきｎ
+
 
 
 dla ilu osób? (pytanie kelnera o stolik)
 なんめいさま　・　なんいん
 
 
+
 następnie / potem
 では
+
 
 
 proszę tutaj (podejść / przyjść / usiąść)
 こちらへ　どうぞ
 
 
+
 uprzejmie proszę (kelner do klienta)
 〜を　どうぞ
+
 
 
 zrozumiałem / przyjąłem zamówienie
 かいこまりました
 
 
+
 proszę chwilę poczekać
 しょうしょうおまちください
+
 
 
 za chwilę / trochę
 しょうしょう
 
 
+
 proszę poczekać
 おまちください
+
 
 
 przepraszam, że musiałeś czekać (kelner przy podaniu posiłku)
 おまたせいたしました
 
 
+
 rok ~ (kalendarzowy)
 〜ねん
+
 
 
 ile lat / który rok?
 なんねん
 
 
+
 miesiąc ~ (kalendarzowy, np. maj)
 〜がつ
+
 
 
 ile miesięcy / który miesiąc?
 なんがつ
 
 
+
 dni tygodnia
 ようび
+
 
 
 który dzień tygodnia?
 なにょうび？
 
 
+
 ~ dzień miesiąca
 〜にち
+
 
 
 ile dni / który dzień miesiąca?
 なんにち
 
 
+
 urodziny
 たんじょうび
+
 
 
 kiedy?
 いつ
 
 
+
 2 lata temu
 おととし
+
 
 
 w zeszłym roku
 きょねん
 
 
+
 w tym roku
 ことし
+
 
 
 za rok
 らいねん
 
 
+
 za 2 lata
 さらいねん
+
 
 
 miesiąc (też księżyc)
 つき
 
 
+
 2 miesiące temu
 せんせんげつ
+
 
 
 miesiąc temu / w zeszłym meisiącu
 せんげつ
 
 
+
 w tym miesiącu
 こんげつ
+
 
 
 w przyszłym miesiącu
 らいげつ
 
 
+
 za 2 miesiące
 さらいげつ
+
 
 
 tydzień
 しゅう
 
 
+
 2 tygodnie temu
 せんせんしゅう
+
 
 
 tydzień temu
 せんしゅう
 
 
+
 w tym tygodniu
 こんしゅう
+
 
 
 za tydzień
 らいしゅう
 
 
+
 za 2 tygodnie
 さらいしゅう
+
 
 
 dzień
 ひ
 
 
+
 2 dni temu
 おととい
+
 
 
 wczoraj
 きのう
 
 
+
 dziś
 きょう
+
 
 
 jutro
 あした
 
 
+
 za 2 dni, pojutrze
 あさって
+
 
 
 pory roku
 きせつ
 
 
+
 wiosna
 はる
+
 
 
 lato
 なつ
 
 
+
 jesień
 あき
+
 
 
 zima
 ふゆ
 
 
+
 kwiecień
 しがつ
+
 
 
 lipiec
 しちがつ
 
 
+
 wrzesień
 くがつ
+
 
 
 poniedziałek
 げつようび
 
 
+
 wtorek
 かようび
+
 
 
 środa
 すいようび
 
 
+
 czwartek
 もくようび
+
 
 
 piątek
 きにょうび
 
 
+
 sobota
 どようび
+
 
 
 niedziela
 にちようび
 
 
+
 pierwszy dzień miesiąca
 ついたち
+
 
 
 drugi dzień miesiąca
 ふつか
 
 
+
 trzeci dzień miesiąca
 みっか
+
 
 
 czwarty dzień miesiąca
 よっか
 
 
+
 piąty dzień miesiąca
 いつか
+
 
 
 szósty dzień miesiąca
 むいか
 
 
+
 siódmy dzień miesiąca
 なのか
+
 
 
 ósmy dzień miesiąca
 ようか
 
 
+
 dziewiąty dzień miesiąca
 ここのか
+
 
 
 dziesiąty dzień miesiąca
 とおか
 
 
+
 czternasty dzień miesiąca
 じゅうよっか
+
 
 
 siedemnasty dzień miesiąca
 じゅうしちにち
 
 
+
 dwudziesty dzień miesiąca
 はつか
+
 
 
 dwudziesty czwarty dzień miesiąca
 にじゅうよっか
 
 
+
 dwudziesty siódmy dzień miesiąca
 にじゅうしちにち
+
 
 
 dwudziesty dziewiąty dzień miesiąca
 にじゅうくにち
 
 
+
 trzydziesty pierwszy dzień meisiąca
 さんじゅういちにち
+
+
 

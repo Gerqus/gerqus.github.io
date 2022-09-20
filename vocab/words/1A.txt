@@ -2,392 +2,490 @@ proszę posłuchaj
 きいてください
 
 
+
 proszę powiedz
 いってください
+
 
 
 proszę popatrz
 みてください
 
 
+
 proszę przeczytaj
 よんでください
+
 
 
 proszę napisz
 かいてください
 
 
+
 proszę zapamiętaj
 おぼえてください
+
 
 
 zacznijmy
 はじめましょう
 
 
+
 zakończmy
 おわらせましょう
+
 
 
 poćwiczmy
 れんしゅうしましょう
 
 
+
 praca domowa
 しゅくだい
+
 
 
 być (nieożywione)
 あります
 
 
+
 wszyscy
 みなさん
+
 
 
 rozumiecie?
 わかりますか？
 
 
+
 pytanie
 しつもん
+
 
 
 rozumieć
 わかります
 
 
+
 nie rozumieć
 わかりません
+
 
 
 co
 なん
 
 
+
 język Japoński
 にほんご
+
 
 
 powoli
 ゆっくり
 
 
+
 jeszcze raz
 もういちど
+
 
 
 proszę (o daną czynność)
 おねがいします
 
 
+
 trudne
 むずかしい
+
 
 
 łatwe
 かんたん
 
 
+
 tak
 はい
+
 
 
 nie
 いいえ
 
 
+
 rzeczownik
 めいし
+
 
 
 czasownik
 どうし
 
 
+
 przymiotnik
 けいようし
+
 
 
 partykuła
 じょし
 
 
+
 ćwiczenie
 れんしゅう
+
 
 
 zdanie
 ぶん
 
 
+
 dialog / rozmowa
 かいわ
+
 
 
 powintanie
 あいさつ
 
 
+
 dzień dobry (rano)
 おはようございます
+
 
 
 dzień dobry (po poranku)
 こんいしは
 
 
+
 dobry wieczór
 こんばんは
+
 
 
 dobranoc
 おやすみなさい
 
 
+
 przepraszam (prosząc o coś)
 すみません
+
 
 
 przepraszam (za coś)
 ごめんなさい
 
 
+
 dziękuję
 ありがとうございます
+
 
 
 nie ma za co (dziękować)
 どういたしまして
 
 
+
 będę jadł (przed posiłkiem)
 いただきます
+
 
 
 dziękuję za jedzenie (po posiłku)
 ごちそうさまでした
 
 
+
 wychodzę (i wrócę)
 いってきます
+
 
 
 miłego dnia / powodzenia / idź i wracaj
 いってらっしゃい
 
 
+
 wróciłem / już jestem
 ただいま
+
 
 
 witaj z powrotem
 おかえりなさい
 
 
+
 jak się masz?
 おげんきですか
+
 
 
 miło mi poznać
 はじめまして
 
 
+
 ja
 わたし
+
 
 
 życzenie dobrej relacji
 どうぞよろしくおねがいします
 
 
+
 jak się nazywasz?
 おなまえは？
+
 
 
 imię / nazwa / nazwisko
 なまえ
 
 
+
 liczba
 すうじ
+
 
 
 jeden
 いち
 
 
+
 dwa
 に
+
 
 
 trzy
 さん
 
 
+
 cztery
 よん
+
 
 
 pięć
 ご
 
 
+
 sześć
 ろく
+
 
 
 siedem
 なな
 
 
+
 osiem
 はち
+
 
 
 dziewięć
 きゅう
 
 
+
 dziesięć
 じゅう
+
 
 
 sto
 ひゃく
 
 
+
 telefon
 でんわ
+
 
 
 numer
 ばんごう
 
 
+
 numer telefonu
 てんわばんごう
+
 
 
 my
 わたしたち
 
 
+
 ty
 あなた
+
 
 
 wy
 あなたたち
 
 
+
 on
 かれ
+
 
 
 oni
 かれら
 
 
+
 ona
 かのじょ
+
 
 
 one
 かのじょたち ・ かのじょら
 
 
+
 kraj
 くに
+
 
 
 Stany Zjednoczone
 アメリカ
 
 
+
 Wielka Brytania
 イギリス
+
 
 
 Włochy
 イタリア
 
 
+
 Indie
 インド
+
 
 
 Korea południowa
 かんこく
 
 
+
 Hiszpania
 スペイン
+
 
 
 Chiny
 ちゅうごく
 
 
+
 Niemcy
 ドイツ
+
 
 
 Japonia
 にほん
 
 
+
 Szwajcaria
 スイス
+
 
 
 Polska
 ポーランド
 
 
+
 Kanada
 カナダ
+
 
 
 Francja
 フランス
 
 
+
 Rosja
 ロシア
+
 
 
 ~narodowość
 〜じん
 
 
+
 zawód
 しょくぎょう
+
 
 
 pracownik firmy
 かいしゃいん
 
 
+
 lekarz
 いしゃ
+
 
 
 pielęgniarz
 かんごし
 
 
+
 nauczyciel
 せんせい　・　きょうし
+
 
 
 inżynier
 エンジニア
 
 
+
 gospodyni domowa
 しゅふ
+
 
 
 sprzedawca
@@ -395,376 +493,470 @@ sprzedawca
 みせのひと
 
 
+
 kelner
 ウェイター
+
 
 
 kelnerka
 ウェイトレス
 
 
+
 bezrobotny
 むしょく
+
 
 
 uczeń podstawówki
 しょうがくせい
 
 
+
 uczeń gimnazjum
 ちょうがくせい
+
 
 
 uczeń liceum
 こうこうせい
 
 
+
 uczeń studiów licencjackich
 だいがくせい
+
 
 
 uczeń studiów licencjackich
 だいがくいんせ
 
 
+
 student / uczeń
 がくせい
+
 
 
 szkoła
 がっこう
 
 
+
 szkoła podstawowa
 しょうがっこう
+
 
 
 gimnazjum
 ちゅうがっこう
 
 
+
 liceum
 こうこう
+
 
 
 uniwersytet pierwszego stopnia
 だいがく
 
 
+
 uniwersytet drugiego stopnia
 だいがくいん
+
 
 
 policjant
 けいさつかん　・けいかん
 
 
+
 strażak
 しょうぼうし
+
 
 
 polityk
 せいじか
 
 
+
 dziennikarz
 きしゃ　・　ジャーナリスト
+
 
 
 fotograf
 カメｒマン
 
 
+
 pilot
 パイロット
+
 
 
 kierowca
 うんてんしゅ
 
 
+
 stolarz
 だいく
+
 
 
 pisarz
 さっか
 
 
+
 piosenkarz
 かしゅ
+
 
 
 aktor
 はいゆう
 
 
+
 aktorka
 じょゆう
+
 
 
 kucharz
 りょうりにん
 
 
+
 fryzjer damski
 びようし
+
 
 
 fryzjer męski
 りようし
 
 
+
 rybak
 りょうし
+
 
 
 farmer / rolnik
 のおか
 
 
+
 wzajemnie / nawzajem
 こちらこそ
+
 
 
 Tokio
 とうきょう
 
 
+
 Supermarket
 スーパー
+
 
 
 szpital
 びょういん
 
 
+
 restauracja
 レストラン
+
 
 
 pracownik biurowy
 しゃいん
 
 
+
 ~rok nauki / klasa
 〜ねんせい
+
 
 
 Seul
 ソウル
 
 
+
 Osaka
 おおさか
+
 
 
 Fukuoka
 ふくおか
 
 
+
 Szkoła w danym mieście (np. Gimnazjum we Wrocławiu)
 〜がっこう
+
 
 
 rodzina (moja)
 かぞく
 
 
+
 rodzina (cudza)
 ごかぞく
+
 
 
 dziadek (mój)
 そふ
 
 
+
 dziadek (cudzy)
 おじいさん
+
 
 
 babcia (moja)
 そぼ
 
 
+
 babcia (cudza)
 おばあさん
+
 
 
 tata (mój)
 ちち
 
 
+
 tata (cudzy)
 おとうさん
+
 
 
 mama (moja)
 はは
 
 
+
 mama (cudza)
 おかあさん
+
 
 
 starszy brat (mój)
 あに
 
 
+
 starszy brat (cudzy)
 おにいさん
+
 
 
 starsza siostra (moja)
 あね
 
 
+
 starsza siostra (cudza)
 おねえさん
+
 
 
 młodszy brat (mój)
 おとうと
 
 
+
 młodszy brat (cudzy)
 おとうとさん
+
 
 
 młodsza siostra (moja)
 いもうと
 
 
+
 młodsza siostra (cudza)
 いもうとさん
+
 
 
 rodzeństwo (moje)
 きょうだい
 
 
+
 rodzeństwo (cudze)
 ごきょうだい
+
 
 
 siostry (rodzeństwo) (moje)
 しまい
 
 
+
 siostry (rodzeństwo) (cudze)
 ごしまい
+
 
 
 wujek (mój)
 おじ
 
 
+
 wujek (cudzy)
 おじさん
+
 
 
 ciocia (moja)
 おば
 
 
+
 ciocia (cudza)
 おばさん
+
 
 
 mąż (mój)
 おっと
 
 
+
 mąż (cudzy)
 ごしゅじん
+
 
 
 żona (moja)
 つま
 
 
+
 żona (cudza)
 おくさん
+
 
 
 kuzyn / kuzynka / kuzynostwo (moje)
 いとこ
 
 
+
 kuzyn / kuzynka / kuzynostwo (cudze)
 いとこ
+
 
 
 ~lat (wiek)
 〜さい
 
 
+
 ile masz lat?
 おいくつですか？　・　なんさいですか？
+
 
 
 Nara
 なら
 
 
+
 Kioto
 きょうと
+
 
 
 liczebnik osobowy
 〜にん
 
 
+
 jedna osoba / sam(a)
 ひとり
+
 
 
 samotnie / samodzielnie
 ひとりで
 
 
+
 dwie osoby
 ふたり
+
 
 
 we doje / w parze
 ふたりで
 
 
+
 i
 と
+
 
 
 czas
 じかん
 
 
+
 ~godzina
 〜じ
+
 
 
 ~minuta
 〜ふん　・　〜ぷん
 
 
+
 pół
 はん
+
 
 
 teraz
 いま
 
 
+
 godziny przedpołudniowe
 ごぜん
+
 
 
 godziny popołudniowe
 ごご
 
 
+
 która godzina?
 なんじ
+
 
 
 ile minut?
