@@ -493,9 +493,9 @@ gospodyni domowa
 
 
 
-sprzedawca
-てんいん
-みせのひと
+sprzedawca, pracownik sklepu
+てんいん・みせのひと
+店員・店の人
 
 
 kelner
@@ -1413,9 +1413,14 @@ miejsce parkingowe
 
 
 
-kawiarnia
+kawiarnia (eng)
 コフィ
 
+
+
+kawiarnia (jp)
+きっさてん
+喫茶店
 
 
 ciasto
@@ -1474,8 +1479,8 @@ przed / z przodu
 
 
 z tyłu / za
-うしら
-
+うしろ
+後ろ
 
 
 w środku / po środku
@@ -1894,8 +1899,8 @@ karta płatnicza
 
 
 gotówka
-げんきｎ
-
+げんきん
+現金
 
 
 dla ilu osób? (pytanie kelnera o stolik)
@@ -2169,8 +2174,8 @@ czwartek
 
 
 piątek
-きにょうび
-
+きんようび
+金曜日
 
 
 sobota
@@ -2857,6 +2862,7 @@ nigdzie
 とこ（に・へ）も
 
 
+
 z nikim więcej / nikt więcej
 だれとも
 誰とも
@@ -2874,7 +2880,6 @@ co się stało?　co się działo? (ogólnie)
 
 co się wydarzyło? (dokłあdnie, szczegółowo)
 なにをしましたか
-
 
 
 
