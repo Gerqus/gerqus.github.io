@@ -1,10 +1,16 @@
 let mainContainer;
 let cardContainer;
+let counterContainer;
 
 let labels = [];
 let cards = [];
 let mainLabelIndices = [];
 let freshFlashcard = false;
+let previousCardRendered = false;
+let counter = 0;
+let cardContainerCenter;
+let currentCard = {};
+let previousCard = {};
 
 addEventListener('DOMContentLoaded', loadCards);
 
@@ -49,26 +55,86 @@ function loadCards() {
 
   mainContainer = document.getElementsByClassName('container')[0];
   cardContainer = document.getElementsByClassName('card')[0];
+  const cardContainerRect = cardContainer.getBoundingClientRect()
+  cardContainerCenter = cardContainerRect.left + (cardContainerRect.right - cardContainerRect.left) / 2;
+  counterContainer = document.getElementsByClassName('counter')[0];
 
   mainContainer.addEventListener('click', handleContainerClick);
   mainContainer.addEventListener('dblclick', () => {});
 }
 
-function handleContainerClick() {
-  if (!freshFlashcard) {
-    cardContainer.innerHTML = '';
-    drawNewFlashcard();
+function handleContainerClick(event) {
+  if (event?.clientX < cardContainerCenter) {
+    back();
   } else {
-    const answearElements = document.getElementsByClassName('answear');
-    Array.from(answearElements).forEach((element) => element.style.opacity = 1);
+    if (previousCardRendered) {
+      forward();
+      freshFlashcard = true;
+    }
+    else if (!freshFlashcard) {
+      drawNewFlashcard();
+      increaseCounter();
+      freshFlashcard = !freshFlashcard;
+    } else {
+      const answearElements = document.getElementsByClassName('answear');
+      Array.from(answearElements).forEach((element) => element.style.opacity = 1);
+      freshFlashcard = !freshFlashcard;
+    }
   }
-  freshFlashcard = !freshFlashcard;
+}
+
+function back() {
+  if (previousCardRendered || !previousCard.card) {
+    return;
+  }
+  decreaseCounter();
+  renderFlashcard(previousCard.card);
+  previousCardRendered = true;
+}
+
+function forward() {
+  if (!currentCard.card) {
+    drawNewFlashcard();
+    increaseCounter();
+  } else {
+    increaseCounter();
+    renderFlashcard(currentCard.card, currentCard.index);
+  }
+  previousCardRendered = false;
+}
+
+function decreaseCounter() {
+  counter--;
+  counterContainer.innerHTML = counter;
+}
+
+function increaseCounter() {
+  counter++;
+  counterContainer.innerHTML = counter;
 }
 
 function drawNewFlashcard() {
-  const randomCard = cards[Math.floor(Math.random() * cards.length)];
-  const randomLabelIndex = mainLabelIndices[Math.floor(Math.random() * mainLabelIndices.length)]
+  previousCard = currentCard;
 
+  const randomCardIndex = Math.floor(Math.random() * cards.length);
+  const randomCard = cards[randomCardIndex];
+  const randomLabelIndex = mainLabelIndices[Math.floor(Math.random() * mainLabelIndices.length)];
+
+  currentCard = {
+    card: randomCard,
+    index: randomLabelIndex,
+  };
+
+  renderFlashcard(randomCard, randomLabelIndex);
+  previousCardRendered = false;
+}
+
+function renderFlashcard(randomCard, randomLabelIndex) {
+  if (!randomCard) {
+    return;
+  }
+
+  cardContainer.innerHTML = '';
   labels.forEach((label, labelIndex) => {
     const labelElement = document.createElement('span');
     labelElement.classList.add('label');
@@ -79,7 +145,7 @@ function drawNewFlashcard() {
     const valueElement = document.createElement('span');
     valueElement.innerHTML = randomCard[labelIndex];
     valueElement.classList.add('answear');
-    if (randomLabelIndex === labelIndex) {
+    if (randomLabelIndex === labelIndex || typeof randomLabelIndex === 'undefined') {
       valueElement.classList.add('main');
       valueElement.style.opacity = 1;
     } else {
