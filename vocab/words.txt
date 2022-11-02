@@ -43,7 +43,7 @@ zakończmy
 終わりましょう
 
 
-poćwiczmy
+poćwiczmy, popraktykujmy
 れんしゅうしましょう
 練習しましょう
 
@@ -103,9 +103,9 @@ jeszcze raz
 もう一度
 
 
-proszę (o daną czynność)
-おねがいします
-お願いします
+czy mógłbyś proszę ~
+~で　おねがいします
+~で　お願いします
 
 
 trudne
@@ -148,7 +148,7 @@ partykuła
 助詞
 
 
-ćwiczenie
+ćwiczenie, praktyka
 れんしゅう
 練習
 
@@ -458,7 +458,7 @@ Rosja
 
 
 
-zawód
+zawód (praca)
 しょくぎょう
 
 
@@ -528,12 +528,12 @@ uczeń liceum
 
 
 
-uczeń studiów licencjackich
+uczeń studiów licencjackich (I st.)
 だいがくせい
 
 
 
-uczeń studiów licencjackich
+uczeń studiów magisterskich (II st.)
 だいがくいんせ
 
 
@@ -638,12 +638,12 @@ kucharz
 
 
 
-fryzjer damski
+salon urody, stylista włosów
 びようし
 
 
 
-fryzjer męski
+fryzjer męski, barber
 りようし
 
 
@@ -923,12 +923,12 @@ i
 
 
 
-czas
+okres czasu
 じかん
 
 
 
-~godzina
+~godzina, punkt w czasie
 〜じ
 
 
@@ -1508,7 +1508,7 @@ blisko / niedaleko (czule)
 
 
 
-blisko / niedaleko (ozięble)
+blisko / niedaleko (suchy fakt)
 ちかく
 
 
@@ -1593,7 +1593,7 @@ tysiąc
 
 
 
-ile?
+ile? (koszt)
 いくら
 
 
@@ -1904,8 +1904,8 @@ gotówka
 
 
 dla ilu osób? (pytanie kelnera o stolik)
-なんめいさま　・　なんいん
-
+(なんめいさま　・　なんにん)　ですか？
+(何名様　・　何人)ですか
 
 
 następnie / potem
@@ -2838,9 +2838,14 @@ spotkać się / napotkać
 会います
 
 
-palić papierosy
-たばこをすいます
-タバコを吸います
+palić
+すいます
+吸います
+
+
+papierosy
+たばこ
+タバコ
 
 
 sprzątać
@@ -2859,6 +2864,11 @@ sprzątanie
 
 
 nigdzie
+とこも
+
+
+
+do nikąd
 とこ（に・へ）も
 
 
@@ -2973,7 +2983,7 @@ rzadko
 
 
 
-w ogóle, w cale, całkowicie, kompletnie
+w ogóle, wcale, całkowicie, kompletnie
 ぜんぜん
 全然
 
@@ -3308,7 +3318,12 @@ bilet
 切符
 
 
-jeden raz (ikkai)
+jeden raz
+いちど
+一度
+
+
+jeden raz
 いっかい
 一回
 
