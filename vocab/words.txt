@@ -173,7 +173,7 @@ dzień dobry (rano)
 お早う御座います
 
 
-dzień dobry (po poranku)
+dzień dobry (po południu)
 こんにちは
 今日は
 
@@ -1449,7 +1449,7 @@ ryba
 
 
 warzywa
-やすい
+やさい
 
 
 
@@ -1974,8 +1974,8 @@ dni tygodnia
 
 
 który dzień tygodnia?
-なにょうび？
-
+なんようび？
+何曜日
 
 
 ~ dzień miesiąca
@@ -3436,3 +3436,528 @@ lekcja
 podróż
 りょこう
 旅行
+
+
+powtórka (eng. review)
+ふくしゅう
+復習
+
+
+połączenie, (ko)relacja, powiązanie, bliskość
+ゆかり
+縁
+
+
+naszyjnik
+ネックレス
+
+
+
+prezent
+プレセント
+
+
+
+pożyczyć OD kogoś ("pożyczyć komuś" jest inaczej)
+かります
+借ります
+
+
+pożyczyć KOMUŚ ("pożyczyć OD kogoś" jest inaczej)
+かします
+貸します
+
+
+otrzymać od kogoś
+もらいます
+
+
+
+dać komuś
+あげます
+
+
+
+język
+げんご
+言語
+
+
+odkurzacz
+そうじき
+掃除機
+
+
+toster
+トースター
+
+
+
+mikrofalówka
+でんしレンジ
+電子レンジ
+
+
+wentylator
+せんぷうき
+扇風機
+
+
+pojazd
+のりもの
+乗り物
+
+
+osoba pracująca
+しゃかいじん
+
+
+
+fajny samochód, bryka
+じどうしゃ
+
+
+
+rower
+じてんしゃ
+自転車
+
+
+samolot
+ひこうき
+飛行機
+
+
+tramwaj
+トラム
+
+
+
+statek
+ふね
+船
+
+
+pociąg
+でんしゃ
+電車
+
+
+autobus
+バス
+
+
+
+taksówka
+タクシー
+
+
+
+shinkansen
+しんかんせん
+新幹線
+
+
+metro
+ちかてつ
+地下鉄
+
+
+pieszo
+あるいて
+歩いて
+
+
+Hokkaido
+ほっかいどう
+北海道
+
+
+centrum handlowe
+ショッピングセンター
+
+
+
+czym
+なにで
+何で
+
+
+lotnisko
+くうこう
+空港
+
+
+wyjście
+でぐち
+出口
+
+
+wejście
+いりぐち
+入口
+
+
+um..., więc... eeee...
+あのう
+
+
+
+uważaj na siebie
+おきをつけて
+お気をつけて
+
+
+cieszysz się (tym, co będzie), prawda?
+たのしみですね
+楽しみですね
+
+
+Tokyo Disneyland
+とうきょうディズニーランド
+東京ディズニーランド
+
+
+Tokyo Skytree
+とうきょうスカイツリー
+東京スカイツリー
+
+
+Akihabara
+あきはばら
+秋葉原
+
+
+Paryż
+パリ
+
+
+
+Czechy
+チェコ
+
+
+
+Praga
+プラハ
+
+
+
+Gdańsk
+グダニスク
+
+
+
+Mazury
+マズーㇼ
+
+
+
+narzędzia
+どうぐ
+道具
+
+
+pałeczki
+はし
+箸
+
+
+ręka
+て
+手
+
+
+łyżka
+スプーン
+
+
+
+nóż
+ナイフ
+
+
+
+widelec
+フォーク
+
+
+
+słomka do picia
+ストロー
+
+
+
+papier
+かみ
+紙
+
+
+znak (symbol, litera)
+じ
+字
+
+
+zdjęcie
+しゃしん
+写真
+
+
+robić zdjęcie, eng. take (a photo)
+とります
+撮ります
+
+
+ciąć
+きります
+切ります
+
+
+lokalizacja, miejsce
+ばしょ
+場所
+
+
+restauracja z ramanem
+ラーメンや
+ラーメン屋
+
+
+basen
+プール
+
+
+
+morze
+うみ
+海
+
+
+wysłać
+おくります
+送ります
+
+
+pływać
+およぎます
+泳ぎます
+
+
+od~
+～から
+
+
+
+do~
+～まで
+
+
+
+wydarzenie
+イベント
+
+
+
+Tanabata (festiwal)
+たなばたまつり
+七夕祭り
+
+
+warsztaty
+ワークショップ
+
+
+
+pada śnieg
+ゆきがふります
+雪が　ふります
+
+
+śnieg
+ゆき
+雪
+
+
+czas na przerwę
+やすみじかん
+休み時間
+
+
+ostatni
+さいご
+最後
+
+
+podróżować
+りょこうします
+旅行します
+
+
+podróż
+りょこう
+旅行
+
+
+~ minut
+～ふん・～ぷん
+～分
+
+
+~ godzin
+～じかん
+～時間
+
+
+~ dni
+～にちかん
+～日間
+
+
+~ tygodni
+～しゅうかん
+～週間
+
+
+~ miesięcy
+～かげつかん
+～か月間
+
+
+~ lat
+～ねんかん
+～年間
+
+
+przez ile mniej więcej
+どのくらい・どのぐらい
+
+
+
+ile minut
+なんぷん
+何分
+
+
+ile godzin
+なんじかん
+何時間
+
+
+ile dni
+なんにちかん
+何日間
+
+
+ile tygodni
+なんしゅうかん
+何週間
+
+
+ile miesięcy
+なんかげつかん
+何か月間
+
+
+ile lat
+なんねんかん
+何年間
+
+
+razem
+いっしょに
+一緒に
+
+
+potwierdzenie, tak
+ええ
+
+
+
+trochę, raczej nie, nie za bardzo (odmowa zaproszenia)
+ちょっと
+
+
+
+praca
+しごと
+仕事
+
+
+pracować
+しごとします
+仕事します
+
+
+posiłek
+しょくじ
+食事
+
+
+posilać się
+しょくじします
+食事します
+
+
+akwarium
+すいぞくかん
+水族館
+
+
+jeszcze
+まだ
+
+
+
+jeszcze nie wiem
+まだ　わかりません
+
+
+
+jaki jest ~?
+～は　どうですか
+
+
+
+czas na ~
+～の　じかん
+～の　時間
+
+
+cieszyć się na coś (co będzie)
+たのしみに　しています
+楽しみに　しています
+
+
+pogoda
+てんき
+天気
+
+
+ładna pogoda
+いいてんき
+いい天気
+
+
+już
+もう
+
+
+
+zanim
+（きかん）まえ
+（きかん）前
+
+
+po (czas)
+（きかん）ご
+（きかん）後
+
+
+do zobaczenia później
+また　あとで
+また　後で
+
+
+później
+あとで
+後で
